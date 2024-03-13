@@ -2,3 +2,8 @@ FROM python:latest
 WORKDIR /app
 COPY /_app/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
+RUN apt-get update -y;
+RUN apt-get install -y nano;
+RUN apt-get install -y vim;
+RUN apt-get install -y net-tools;
+RUN apt-get install -y firefox-esr;

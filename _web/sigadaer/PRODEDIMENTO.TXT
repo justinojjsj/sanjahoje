@@ -1,0 +1,51 @@
+### PROCEDIMENTO DE PREPARAÇÃO DOS SCRIPTS ###
+
+ssh silvajunior@172.16.248.41
+cd /Documentos
+nano ARQ.txt
+    Copiar dados de pendencia neste arquivo
+./roda_tudo.sh
+    Deve pedir a senha 2 vezes
+Verificar se os arquivos com a data de hoje estão na seguinte pasta do windows
+C:\Users\silvajunior\Desktop\desenvolvimento\sistemas-ieav\TESTES\sigadaer\dados
+
+Entrar em http://127.0.0.1:7080
+    Limpar tabela doc_pendentes
+
+entrar na pagina: http://127.0.0.1:70/sigadaer/dados/indexDocPendentes.php
+    subir o arquivo data.txt
+
+Entrar em http://127.0.0.1:7080
+    Limpar tabela historico_pendentes
+    subir arquivo ultimadatacomparacao.txt
+    subir arquivo dataatual.txt
+
+Conferir os dados em http://127.0.0.1:70/sigadaer/
+
+
+
+### COOREÇÕES A SEREM FEITAS ### 
+
+home-padrao.php 
+
+    linha 6 	$sql = "SELECT * FROM doc_pendentes ORDER BY qtd_pendentes DESC"; alterar para tabela historico_pendentes e ordenar por essa tabela;
+    Fazer mudanças necessárias;
+    Apagar coluna qtd_pendentes da tabela historico_pendentes;
+
+
+
+### PROCEDIMENTO DE PREPARAÇÃO DOS SCRIPTS 06/03/2024 ###
+
+#Entrar na pasta
+
+    cd /Desktop/desenvolvimento/sistemas-ieav/TESTES/sigadaer/dados/scripts
+
+#Copiar dados de pendencia do SIGADAER neste arquivo ARQ.txt
+
+    bash limpa.sh
+
+#Entrar na pagina: http://127.0.0.1:70/sigadaer/dados/index.php
+  
+    Upar o arquivo /Desktop/desenvolvimento/sistemas-ieav/TESTES/sigadaer/dados/datadehoje-limpo.txt
+
+Conferir os dados em http://127.0.0.1:70/sigadaer/ (PRNCIPALMENTE DIREÇÃO)

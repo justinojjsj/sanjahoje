@@ -43,7 +43,7 @@ services:
         ipv4_address: 170.14.0.3
     environment:
       MYSQL_ROOT_PASSWORD: my-secret-pw
-      MYSQL_DATABASE: projeto-db
+      MYSQL_DATABASE: db_testes
       MYSQL_USER: aluno
       MYSQL_PASSWORD: my-password
       
@@ -59,8 +59,8 @@ services:
       PMA_HOST: db
       MYSQL_ROOT_PASSWORD: my-secret-pw
       UPLOAD_LIMIT: 50M
-      PMA_USER: aluno
-      PMA_PASSWORD: my-password
+      #PMA_USER: aluno
+      #PMA_PASSWORD: my-password
     depends_on:
       - db
 
@@ -76,22 +76,6 @@ services:
     networks:
       rede:
         ipv4_address: 170.14.0.5
-
-  portainer:
-     image: portainer/portainer-ce:latest
-     container_name: portainer-pi3
-     restart: unless-stopped
-     security_opt:
-       - no-new-privileges:true
-     volumes:
-       - /etc/localtime:/etc/localtime:ro
-       - /var/run/docker.sock:/var/run/docker.sock
-       - ./portainer-data:/data
-     ports:
-       - 9000:9000
-     networks:
-      rede:
-        ipv4_address: 170.14.0.6
 
 volumes:
   dbdata:
