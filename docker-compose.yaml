@@ -6,7 +6,7 @@ services:
     build:
       context: .
       dockerfile: dockerfile-php-apache
-    container_name: php-apache-pi3
+    container_name: sanjahoje_php-apache
     volumes:
       - ./_web:/var/www/html
       - ./sites-available/:/etc/apache2/sites-available/
@@ -33,7 +33,7 @@ services:
     build:
       context: .
       dockerfile: dockerfile-db
-    container_name: db-pi3
+    container_name: sanjahoje_db
     volumes:
       - dbdata:/var/lib/mysql
     ports:
@@ -49,7 +49,7 @@ services:
       
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
-    container_name: phpmyadmin-pi3
+    container_name: sanjahoje_phpmyadmin
     ports:
       - 8082:80
     networks:
@@ -68,7 +68,7 @@ services:
     build:
       context: .
       dockerfile: dockerfile-python
-    container_name: python-pi3
+    container_name: sanjahoje_python
     volumes:
       - ./_app:/app 
     restart: always
