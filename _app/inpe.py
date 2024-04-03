@@ -2,8 +2,13 @@
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.firefox.options import Options
   
-webBrowser = webdriver.Firefox()
+f_options=Options()
+f_options.add_argument("-headless")
+  
+options = webdriver.FirefoxOptions()  
+webBrowser = webdriver.Firefox(options=f_options)
 webBrowser.get('https://tempo.cptec.inpe.br/sp/sao-jose-dos-campos')
 
 #2. Copiar os dados do dia de hoje
@@ -16,6 +21,7 @@ texto = texto.splitlines()
 
 #print(texto)
 
+data = texto[1]
 chuva_manha = texto[3]
 chuva_tarde = texto[5]
 chuva_noite = texto[7]
@@ -25,7 +31,8 @@ ind_uv = texto[12]
 amanhecer = texto[13]
 entardecer = texto[14]
 
-print(' ### ')
+print(' ')
+print('Data'+': '+data)
 print('Probabilidade de chuva de manhã'+': '+chuva_manha)
 print('Probabilidade de chuva a tarde'+': '+chuva_tarde)
 print('Probabilidade de chuva a noite'+': '+chuva_noite)
@@ -34,5 +41,5 @@ print('Temperatura mínima'+': '+temp_min)
 print('Índice UV'+': '+ind_uv)
 print('Nascer do Sol'+': '+amanhecer)
 print('Pôr do Sol'+': '+entardecer)
-print(' ### ')
+print(' ')
 
