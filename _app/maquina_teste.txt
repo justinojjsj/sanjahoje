@@ -1,4 +1,4 @@
-Ao utilizar uma máquina com linux mint instalado, padronizar as seguintes versões
+#Ao utilizar uma máquina com linux mint instalado, padronizar as seguintes versões
 
 https://gist.github.com/luzfcb/ef29561ff81e81e348ab7d6824e14404
 
@@ -6,3 +6,5 @@ pyenv install 3.7.5
 pyenv global 3.7.5
 
 pip install selenium
+
+#Esse procedimento é necessário para facilitar os testes, uma vez que o container python roda sem interface gráfica
