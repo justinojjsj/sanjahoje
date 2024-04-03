@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db
--- Tempo de geração: 03/04/2024 às 16:00
+-- Tempo de geração: 03/04/2024 às 16:24
 -- Versão do servidor: 11.2.2-MariaDB-1:11.2.2+maria~ubu2204
 -- Versão do PHP: 8.2.8
 
@@ -32,6 +32,7 @@ CREATE TABLE `dados` (
   `data` varchar(30) NOT NULL,
   `chuva_manha` varchar(5) NOT NULL,
   `chuva_tarde` varchar(5) NOT NULL,
+  `chuva_noite` varchar(5) NOT NULL,
   `temp_max` varchar(5) NOT NULL,
   `temp_min` varchar(5) NOT NULL,
   `ind_uv` varchar(5) NOT NULL,
@@ -43,8 +44,8 @@ CREATE TABLE `dados` (
 -- Despejando dados para a tabela `dados`
 --
 
-INSERT INTO `dados` (`id`, `data`, `chuva_manha`, `chuva_tarde`, `temp_max`, `temp_min`, `ind_uv`, `amanhecer`, `entardecer`) VALUES
-(1, '03/04/2024', '5%', '5%', '30°', '18°', '9', '06:12', '18:00');
+INSERT INTO `dados` (`id`, `data`, `chuva_manha`, `chuva_tarde`, `chuva_noite`, `temp_max`, `temp_min`, `ind_uv`, `amanhecer`, `entardecer`) VALUES
+(1, '03/04/2024', '5%', '5%', '5%', '30°', '18°', '9', '06:12', '18:00');
 
 --
 -- Índices para tabelas despejadas

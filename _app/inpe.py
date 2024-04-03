@@ -45,7 +45,7 @@ print('Pôr do Sol'+': '+entardecer)
 print(' ')
 
 db_connection = mysql.connector.connect(host='170.14.0.3', user='root', password='my-secret-pw', database='db_inpe')
-sql = f"INSERT INTO dados (data, chuva_manha, chuva_tarde, temp_max, temp_min, ind_uv, amanhecer, entardecer) VALUES ('{data}','{chuva_manha}','{chuva_tarde}','{temp_max}','{temp_min}','{ind_uv}','{amanhecer}','{entardecer}')"
+sql = f"INSERT INTO dados (data, chuva_manha, chuva_tarde, chuva_noite, temp_max, temp_min, ind_uv, amanhecer, entardecer) VALUES ('{data}','{chuva_manha}','{chuva_tarde}','{chuva_noite}','{temp_max}','{temp_min}','{ind_uv}','{amanhecer}','{entardecer}')"
 cursor = db_connection.cursor()
 cursor.execute(sql)
 cursor.close()
