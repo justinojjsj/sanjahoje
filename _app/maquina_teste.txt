@@ -6,5 +6,6 @@ pyenv install 3.7.5
 pyenv global 3.7.5
 
 pip install selenium
+pip install mysql-connector-python
 
 #Esse procedimento é necessário para facilitar os testes, uma vez que o container python roda sem interface gráfica

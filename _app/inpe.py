@@ -3,6 +3,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
+import mysql.connector
   
 f_options=Options()
 f_options.add_argument("-headless")
@@ -43,3 +44,10 @@ print('Nascer do Sol'+': '+amanhecer)
 print('Pôr do Sol'+': '+entardecer)
 print(' ')
 
+db_connection = mysql.connector.connect(host='170.14.0.3', user='root', password='my-secret-pw', database='db_inpe')
+sql = f"INSERT INTO dados (data, chuva_manha, chuva_tarde, temp_max, temp_min, ind_uv, amanhecer, entardecer) VALUES ('{data}','{chuva_manha}','{chuva_tarde}','{temp_max}','{temp_min}','{ind_uv}','{amanhecer}','{entardecer}')"
+cursor = db_connection.cursor()
+cursor.execute(sql)
+cursor.close()
+db_connection.commit()
+db_connection.close()
