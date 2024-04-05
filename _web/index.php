@@ -51,29 +51,31 @@
                         <div class="card h-100">
                         <!--<img src="./file.jpg" class="card-img-top" alt="...">-->
 
-                        <?php
-                           	include_once('conexao_inpe.php');
+                        <div id="inpe" style="height:350px;">
+                            <?php
+                                include_once('conexao_inpe.php');
 
-                            $consulta = "SELECT * FROM dados";
-                            $resultado = mysqli_query($conn, $consulta);
-                            $dados = mysqli_fetch_assoc($resultado); 
-                                                                                    
-                            echo "Probabilidade de chuva de manhã: ".$dados['chuva_manha'];	
-                            echo "<br>";										
-                            echo "Probabilidade de chuva a tarde: ".$dados['chuva_tarde'];
-                            echo "<br>";									
-                            echo "Probabilidade de chuva a noite: ".$dados['chuva_noite'];
-                            echo "<br>";										
-                            echo "Temperatura máxima: ".$dados['temp_max'];
-                            echo "<br>";										
-                            echo "Temperatura mínima: ".$dados['temp_min'];
-                            echo "<br>";										
-                            echo "Índice UV: ".$dados['ind_uv'];
-                            echo "<br>";										
-                            echo "Nascer do Sol: ".$dados['amanhecer'];
-                            echo "<br>";										
-                            echo "Pôr do Sol: ".$dados['entardecer'];
-                        ?>
+                                $consulta = "SELECT * FROM dados ORDER BY id DESC LIMIT 1";
+                                $resultado = mysqli_query($conn, $consulta);
+                                $dados = mysqli_fetch_assoc($resultado); 
+                                                                                        
+                                echo "Probabilidade de chuva de manhã: ".$dados['chuva_manha'];	
+                                echo "<br>";										
+                                echo "Probabilidade de chuva a tarde: ".$dados['chuva_tarde'];
+                                echo "<br>";									
+                                echo "Probabilidade de chuva a noite: ".$dados['chuva_noite'];
+                                echo "<br>";										
+                                echo "Temperatura máxima: ".$dados['temp_max'];
+                                echo "<br>";										
+                                echo "Temperatura mínima: ".$dados['temp_min'];
+                                echo "<br>";										
+                                echo "Índice UV: ".$dados['ind_uv'];
+                                echo "<br>";										
+                                echo "Nascer do Sol: ".$dados['amanhecer'];
+                                echo "<br>";										
+                                echo "Pôr do Sol: ".$dados['entardecer'];
+                            ?>
+                        </div>
 
                         <div class="card-footer">
                             <h5 class="card-title">Condições Climáticas</h5>

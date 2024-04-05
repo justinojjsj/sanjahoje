@@ -20,17 +20,31 @@ webBrowser.close()
 
 texto = texto.splitlines()
 
-#print(texto)
+print(texto)
+tamanho = len(texto)
+print(tamanho)
 
-data = texto[1]
-chuva_manha = texto[3]
-chuva_tarde = texto[5]
-chuva_noite = texto[7]
-temp_max = texto[9]
-temp_min = texto[10]
-ind_uv = texto[12]
-amanhecer = texto[13]
-entardecer = texto[14]
+if (tamanho == 13):
+    data = texto[1]
+    chuva_manha = 'Sem dados'
+    chuva_tarde = texto[3]
+    chuva_noite = texto[5]
+    temp_max = texto[7]
+    temp_min = texto[8]
+    ind_uv = texto[10]
+    amanhecer = texto[11]
+    entardecer = texto[12]
+
+elif (tamanho == 15):
+    data = texto[1]
+    chuva_manha = texto[3]
+    chuva_tarde = texto[5]
+    chuva_noite = texto[7]
+    temp_max = texto[9]
+    temp_min = texto[10]
+    ind_uv = texto[12]
+    amanhecer = texto[13]
+    entardecer = texto[14]
 
 print(' ')
 print('Data'+': '+data)
