@@ -76,6 +76,8 @@ services:
     networks:
       rede:
         ipv4_address: 170.14.0.5
+    environment:
+      TZ: "America/Sao_Paulo"
 
 volumes:
   dbdata:
