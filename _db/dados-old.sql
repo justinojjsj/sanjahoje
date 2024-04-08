@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db
--- Tempo de geração: 08/04/2024 às 12:35
--- Versão do servidor: 11.2.2-MariaDB-1:11.2.2+maria~ubu2204
+-- Tempo de geração: 05/04/2024 às 19:47
+-- Versão do servidor: 11.3.2-MariaDB-1:11.3.2+maria~ubu2204
 -- Versão do PHP: 8.2.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -30,24 +30,23 @@ SET time_zone = "+00:00";
 CREATE TABLE `dados` (
   `id` int(11) NOT NULL,
   `data` varchar(30) NOT NULL,
-  `chuva_manha` varchar(5) NOT NULL,
+  `chuva_manha` varchar(20) NOT NULL,
   `chuva_tarde` varchar(5) NOT NULL,
   `chuva_noite` varchar(5) NOT NULL,
   `temp_max` varchar(5) NOT NULL,
   `temp_min` varchar(5) NOT NULL,
   `ind_uv` varchar(5) NOT NULL,
   `amanhecer` varchar(10) NOT NULL,
-  `entardecer` varchar(10) NOT NULL,
-  `hora_coleta` varchar(30) NOT NULL
+  `entardecer` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Despejando dados para a tabela `dados`
 --
 
-INSERT INTO `dados` (`id`, `data`, `chuva_manha`, `chuva_tarde`, `chuva_noite`, `temp_max`, `temp_min`, `ind_uv`, `amanhecer`, `entardecer`, `hora_coleta`) VALUES
-(1, '03/04/2024', '5%', '5%', '5%', '30°', '18°', '9', '06:12', '18:00', ''),
-(2, '08/04/2024', '5%', '5%', '5%', '30°', '19°', '9', '06:14', '17:55', '09:35:00');
+INSERT INTO `dados` (`id`, `data`, `chuva_manha`, `chuva_tarde`, `chuva_noite`, `temp_max`, `temp_min`, `ind_uv`, `amanhecer`, `entardecer`) VALUES
+(1, '03/04/2024', '5%', '5%', '5%', '30°', '18°', '9', '06:12', '18:00'),
+(2, '05/04/2024', 'Sem dados', '5%', '5%', '31°', '19°', '9', '06:13', '17:58');
 
 --
 -- Índices para tabelas despejadas

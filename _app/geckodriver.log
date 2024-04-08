@@ -2044,3 +2044,1114 @@ https://github.com/sass/node-sass/releases/tag/v4.5.3
     at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
     at processTicksAndRejections (node:internal/process/task_queues:78:11)
 1712347854143	Marionette	INFO	Stopped listening on port 34701
+1712579178145	geckodriver	INFO	Listening on 127.0.0.1:50583
+1712579178692	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "36769" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTQq9sh"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712579179143	Marionette	INFO	Marionette enabled
+1712579179255	Marionette	INFO	Listening on port 39805
+WebDriver BiDi listening on ws://127.0.0.1:36769
+Read port: 39805
+1712579179524	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:36769/devtools/browser/0565a37c-ba12-4597-9156-4518360b61a5
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1712579182834	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1712579184875	Marionette	INFO	Stopped listening on port 39805
+1712579692821	geckodriver	INFO	Listening on 127.0.0.1:49363
+1712579692879	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "60565" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefyJwFZ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712579693292	Marionette	INFO	Marionette enabled
+1712579693373	Marionette	INFO	Listening on port 37631
+Read port: 37631
+WebDriver BiDi listening on ws://127.0.0.1:60565
+1712579693449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60565/devtools/browser/43a64d66-d8e6-4fc7-bf73-b37303b4ea90
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1712579697083	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1712579699064	Marionette	INFO	Stopped listening on port 37631
+1712580260244	geckodriver	INFO	Listening on 127.0.0.1:58169
+1712580260293	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "41811" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCJyX7H"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712580260702	Marionette	INFO	Marionette enabled
+1712580260779	Marionette	INFO	Listening on port 40893
+WebDriver BiDi listening on ws://127.0.0.1:41811
+Read port: 40893
+1712580260860	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:41811/devtools/browser/e72ba439-8bc0-450d-8017-ef871a7245be
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1712580264299	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1712580266270	Marionette	INFO	Stopped listening on port 40893
+1712580297536	geckodriver	INFO	Listening on 127.0.0.1:33201
+1712580297589	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "34607" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKrzMbi"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712580297994	Marionette	INFO	Marionette enabled
+1712580298082	Marionette	INFO	Listening on port 39415
+Read port: 39415
+WebDriver BiDi listening on ws://127.0.0.1:34607
+1712580298158	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:34607/devtools/browser/752c3b44-e146-4f37-9406-1400d638a3ef
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1712580301414	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1712580303360	Marionette	INFO	Stopped listening on port 39415
+1712580382820	geckodriver	INFO	Listening on 127.0.0.1:35957
+1712580382874	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "55953" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile42tjVL"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712580383310	Marionette	INFO	Marionette enabled
+1712580383396	Marionette	INFO	Listening on port 42495
+WebDriver BiDi listening on ws://127.0.0.1:55953
+Read port: 42495
+1712580383644	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55953/devtools/browser/c78e45f4-a91b-4971-834a-e6442ca25c1f
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1712580386875	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1712580388879	Marionette	INFO	Stopped listening on port 42495
+1712580530337	geckodriver	INFO	Listening on 127.0.0.1:47249
+1712580530377	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "36031" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYzXahW"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712580530844	Marionette	INFO	Marionette enabled
+1712580530934	Marionette	INFO	Listening on port 39949
+WebDriver BiDi listening on ws://127.0.0.1:36031
+Read port: 39949
+1712580531170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:36031/devtools/browser/407b1efc-3bc1-41de-a003-7f814018827c
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1712580534830	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1712580537773	Marionette	INFO	Stopped listening on port 39949
+1712580555633	geckodriver	INFO	Listening on 127.0.0.1:47509
+1712580555690	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "48123" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLu6BuN"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712580556138	Marionette	INFO	Marionette enabled
+1712580556229	Marionette	INFO	Listening on port 37501
+WebDriver BiDi listening on ws://127.0.0.1:48123
+Read port: 37501
+1712580556522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:48123/devtools/browser/6413bf9c-f859-4c86-b5c1-f403967b78d3
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1712580559860	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1712580561794	Marionette	INFO	Stopped listening on port 37501
+1712580584848	geckodriver	INFO	Listening on 127.0.0.1:56235
+1712580584885	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "36095" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejYMzfC"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712580585307	Marionette	INFO	Marionette enabled
+1712580585392	Marionette	INFO	Listening on port 45545
+WebDriver BiDi listening on ws://127.0.0.1:36095
+Read port: 45545
+1712580585647	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:36095/devtools/browser/71441431-ed6b-4079-a817-f7d7131267a3
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1712580590518	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1712580592439	Marionette	INFO	Stopped listening on port 45545
+1712580650692	geckodriver	INFO	Listening on 127.0.0.1:42595
+1712580650747	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "41141" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWRAx7c"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712580651148	Marionette	INFO	Marionette enabled
+1712580651223	Marionette	INFO	Listening on port 42741
+WebDriver BiDi listening on ws://127.0.0.1:41141
+Read port: 42741
+1712580651430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:41141/devtools/browser/98e6b53d-f2dd-4f64-b9e8-a6704b00bd9b
+1712580654599	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1712580656617	Marionette	INFO	Stopped listening on port 42741
+1712580667685	geckodriver	INFO	Listening on 127.0.0.1:58735
+1712580667737	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "54937" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqOszMP"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712580668145	Marionette	INFO	Marionette enabled
+1712580668221	Marionette	INFO	Listening on port 44703
+WebDriver BiDi listening on ws://127.0.0.1:54937
+Read port: 44703
+1712580668302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:54937/devtools/browser/f44b1c63-351c-4478-bf36-60daebb3d262
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1712580671801	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1712580673732	Marionette	INFO	Stopped listening on port 44703
+1712580820543	geckodriver	INFO	Listening on 127.0.0.1:57423
+1712580820606	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "50195" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1fh2Wf"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712580821008	Marionette	INFO	Marionette enabled
+1712580821085	Marionette	INFO	Listening on port 32909
+WebDriver BiDi listening on ws://127.0.0.1:50195
+Read port: 32909
+1712580821296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50195/devtools/browser/b26754d9-a784-4a2a-944f-e6f439efac4e
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1712580824968	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1712580827075	Marionette	INFO	Stopped listening on port 32909
+1712580870583	geckodriver	INFO	Listening on 127.0.0.1:56221
+1712580870634	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "46129" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoAsrwv"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712580871031	Marionette	INFO	Marionette enabled
+1712580871107	Marionette	INFO	Listening on port 39207
+WebDriver BiDi listening on ws://127.0.0.1:46129
+Read port: 39207
+1712580871313	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:46129/devtools/browser/bea789dc-cd90-4a21-adf5-a03d9e54c403
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1712580874608	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1712580876509	Marionette	INFO	Stopped listening on port 39207
+1712580956620	geckodriver	INFO	Listening on 127.0.0.1:42863
+1712580956671	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "46331" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemODDGS"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712580957071	Marionette	INFO	Marionette enabled
+1712580957148	Marionette	INFO	Listening on port 39923
+WebDriver BiDi listening on ws://127.0.0.1:46331
+Read port: 39923
+1712580957352	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:46331/devtools/browser/3270b36e-056c-4521-b876-0c040388fd62
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1712580960719	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1712580962615	Marionette	INFO	Stopped listening on port 39923
+1712581695156	geckodriver	INFO	Listening on 127.0.0.1:44701
+1712581695221	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "57857" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemdmwrg"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712581695630	Marionette	INFO	Marionette enabled
+1712581695706	Marionette	INFO	Listening on port 34117
+Read port: 34117
+WebDriver BiDi listening on ws://127.0.0.1:57857
+1712581695784	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57857/devtools/browser/907cab42-da24-44ee-a2f1-518bb68adf21
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1712581699430	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1712581701308	Marionette	INFO	Stopped listening on port 34117
+1712581815376	geckodriver	INFO	Listening on 127.0.0.1:46111
+1712581815429	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "45167" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXHXxmL"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712581815834	Marionette	INFO	Marionette enabled
+1712581815913	Marionette	INFO	Listening on port 38939
+WebDriver BiDi listening on ws://127.0.0.1:45167
+Read port: 38939
+1712581816120	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:45167/devtools/browser/4aa21d9c-dc85-4be9-81de-b4f3564abfe9
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1712581819755	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1712581821690	Marionette	INFO	Stopped listening on port 38939
+[21371] Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo

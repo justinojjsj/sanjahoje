@@ -81,7 +81,7 @@
                                 <p class="card-text">Dados obtidos do Centro de Previsão de Tempo e Estudos Climáticos do Instituto Nacional de Pesquisas Espaciais (CPTEC/INPE) </p>
                             </div>
                             <div class="card-footer">
-                                <small class="text-muted">Última atualização 3 mins atrás</small>
+                                <small class="text-muted">Última atualização: <?php echo $dados['hora_coleta']; ?></small>
                             </div>
                         </div>
                     </div>
