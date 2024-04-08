@@ -1,6 +1,6 @@
 #Colocar no agendamento do cron:
 #crontab -e
-#33 * * * * /app/exec_inpe.sh
+#0,15,30,45 * * * * /app/exec_inpe.sh
 
 #1. Entrar no site https://tempo.cptec.inpe.br/sp/sao-jose-dos-campos
 
@@ -9,6 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from datetime import date
 import mysql.connector
+db_connection = mysql.connector.connect(host='170.14.0.3', user='root', password='my-secret-pw', database='db_inpe')
   
 f_options=Options()
 f_options.add_argument("-headless")
@@ -29,12 +30,18 @@ texto = texto.splitlines()
 tamanho = len(texto)
 #print(tamanho)
 
-data = texto[1]
+consulta = db_connection.cursor()
+consulta.execute("SELECT data FROM dados ORDER BY id DESC LIMIT 1")
+data_banco = consulta.fetchone()
+
+#print(data_banco[0])
 
 data_hoje = date.today()
 dataFormatada = data_hoje.strftime('%d/%m/%Y')
 
-if (data!=dataFormatada):#If para verificar se já foi salvo os dados do banco hoje
+data = texto[1]
+
+if (data_banco[0]!=dataFormatada):#If para verificar se já foi salvo os dados do banco hoje
 
     if (tamanho == 13):#Tem dias que o INPE não divulga a chuva de manhã
         chuva_manha = 'Sem dados'
@@ -68,7 +75,6 @@ if (data!=dataFormatada):#If para verificar se já foi salvo os dados do banco h
     print('Pôr do Sol'+': '+entardecer)
     print(' ')
 
-    db_connection = mysql.connector.connect(host='170.14.0.3', user='root', password='my-secret-pw', database='db_inpe')
     sql = f"INSERT INTO dados (data, chuva_manha, chuva_tarde, chuva_noite, temp_max, temp_min, ind_uv, amanhecer, entardecer) VALUES ('{data}','{chuva_manha}','{chuva_tarde}','{chuva_noite}','{temp_max}','{temp_min}','{ind_uv}','{amanhecer}','{entardecer}')"
     cursor = db_connection.cursor()
     cursor.execute(sql)
@@ -78,4 +84,3 @@ if (data!=dataFormatada):#If para verificar se já foi salvo os dados do banco h
 
 else:
     print("Dados já salvos no banco")
-
