@@ -64,18 +64,33 @@ services:
     depends_on:
       - db
 
-  python:
+  python-inpe:
     build:
       context: .
-      dockerfile: dockerfile-python
-    container_name: sanjahoje_python
+      dockerfile: dockerfile-python-inpe
+    container_name: sanjahoje_python_inpe
     volumes:
-      - ./_app:/app 
+      - ./_app-inpe:/app 
     restart: always
     tty: true
     networks:
       rede:
         ipv4_address: 170.14.0.5
+    environment:
+      TZ: "America/Sao_Paulo"
+
+  python-defciv:
+    build:
+      context: .
+      dockerfile: dockerfile-python-defciv
+    container_name: sanjahoje_python_defciv
+    volumes:
+      - ./_app-defciv:/app 
+    restart: always
+    tty: true
+    networks:
+      rede:
+        ipv4_address: 170.14.0.6
     environment:
       TZ: "America/Sao_Paulo"
 

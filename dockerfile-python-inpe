@@ -1,6 +1,6 @@
 FROM python:latest
 WORKDIR /app
-COPY /_app/requirements.txt .
+COPY /_app-inpe/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 RUN apt-get update -y;
 RUN apt-get install -y nano;
