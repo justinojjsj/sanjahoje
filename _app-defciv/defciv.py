@@ -29,17 +29,30 @@ try:
     sleep(15)
     pyautogui.click(menu[0],menu[1])
     sleep(15)
-    ver_alertas = pyautogui.locateCenterOnScreen('ver_alertas.png')
-    sleep(15)
-    pyautogui.click(ver_alertas[0],ver_alertas[1])
-    #sleep(10)
-    #env_ver_alertas = pyautogui.locateCenterOnScreen('env_ver_alertas.png')
-    #sleep(10)
-    #pyautogui.click(env_ver_alertas[0],env_ver_alertas[1])
-    #sleep(10)
-    #listar_estados = pyautogui.locateCenterOnScreen('listar_estados.png')
-    #sleep(10)
-    #pyautogui.click(listar_estados[0],listar_estados[1])
+    
+    pyautogui.press('tab', presses=4)
+    pyautogui.press('enter')
+    
+    sleep(10)
+    env_ver_alertas = pyautogui.locateCenterOnScreen('env_ver_alertas.png')
+    sleep(10)
+    pyautogui.click(env_ver_alertas[0],env_ver_alertas[1])
+    sleep(10)
+    
+    listar_estados = pyautogui.locateCenterOnScreen('listar_estados.png')
+    sleep(10)
+    pyautogui.click(listar_estados[0],listar_estados[1])
+    sleep(10)
+    
+    pyautogui.press('tab', presses=10)
+    pyautogui.press('enter')
+    
+    sleep(10)    
+    listar_estados = pyautogui.locateCenterOnScreen('listar_estados.png')
+    sleep(10)
+    pyautogui.click(listar_estados[0],listar_estados[1])
+    sleep(10)
+    
     #pyautogui.hotkey('ctrl','w')
     #sleep(5)   
 except:
