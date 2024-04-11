@@ -44,7 +44,7 @@ try:
     pyautogui.click(listar_estados[0],listar_estados[1])
     sleep(10)
     
-    pyautogui.press('tab', presses=10)
+    pyautogui.press('tab', presses=8)
     pyautogui.press('enter')
     
     sleep(10)    
