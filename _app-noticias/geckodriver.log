@@ -1,0 +1,161 @@
+1713281391201	geckodriver	INFO	Listening on 127.0.0.1:45721
+1713281391752	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "32973" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVfVjGh"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713281392403	Marionette	INFO	Marionette enabled
+1713281392568	Marionette	INFO	Listening on port 42719
+WebDriver BiDi listening on ws://127.0.0.1:32973
+Read port: 42719
+1713281392877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:32973/devtools/browser/bd34f5ad-7ca2-48a2-bad4-f4545c6d56c6
+JavaScript error: https://s3.glbimg.com/v1/AUTH_e1b09a2d222b4900a437a46914be81e5/api/stable/web/api.min.js?loading-agent=global-webdeps, line 1: Error: Player API loaded twice! Aborting.
+1713281396381	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1713281412093	Marionette	INFO	Stopped listening on port 42719
+JavaScript warning: https://d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app/d39f98ec-9259-4f8b-896d-7ab58be1f900-web.js, line 1: Script terminated by timeout at:
+mergeMessageOptions@https://d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app/d39f98ec-9259-4f8b-896d-7ab58be1f900-web.js:1:105980
+emit@https://d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app/d39f98ec-9259-4f8b-896d-7ab58be1f900-web.js:1:105305
+e@https://d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app/d39f98ec-9259-4f8b-896d-7ab58be1f900-web.js:1:264560
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1713281455820	geckodriver	INFO	Listening on 127.0.0.1:53195
+1713281455853	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "34109" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQ89tvB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713281456769	Marionette	INFO	Marionette enabled
+1713281456915	Marionette	INFO	Listening on port 44835
+WebDriver BiDi listening on ws://127.0.0.1:34109
+Read port: 44835
+1713281457133	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:34109/devtools/browser/171cbf4b-1ddd-477b-a3c4-1c7a1ac8a3bf
+JavaScript error: https://s3.glbimg.com/v1/AUTH_e1b09a2d222b4900a437a46914be81e5/api/stable/web/api.min.js?loading-agent=global-webdeps, line 1: Error: Player API loaded twice! Aborting.
+1713281461011	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1713281486807	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1713281494137	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1713281511906	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1713281520031	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9ZfChOpXbHBNFJKz_5-oXUVoR1FZPZjvM4uQ47JL5hk.js line 2 > eval line 2475 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9ZfChOpXbHBNFJKz_5-oXUVoR1FZPZjvM4uQ47JL5hk.js line 2 > eval line 181 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+libva info: va_openDriver() returns 1
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+libva info: Found init function __vaDriverInit_1_10
+libva info: va_openDriver() returns 0
+JavaScript warning: https://s3.glbimg.com/v1/AUTH_b002e0039b9f46a5a4a94ff667d31e2d/assets/dist/b7ed030c505f99b1c2f58e90105cff20.js, line 24: Script terminated by timeout at:
+y/<@https://s3.glbimg.com/v1/AUTH_b002e0039b9f46a5a4a94ff667d31e2d/assets/dist/b7ed030c505f99b1c2f58e90105cff20.js:24:1709
+n@https://s3.glbimg.com/v1/AUTH_b002e0039b9f46a5a4a94ff667d31e2d/assets/dist/b7ed030c505f99b1c2f58e90105cff20.js:24:1570
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9ZfChOpXbHBNFJKz_5-oXUVoR1FZPZjvM4uQ47JL5hk.js line 2 > eval line 7214 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/L0LConaBzCc577BZGNgzP3bg87fF5vhB9-a07M4Tw6o.js line 2 > eval line 5004 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://s3.glbimg.com/v1/AUTH_b002e0039b9f46a5a4a94ff667d31e2d/assets/dist/0d4b7326e4b73935c573864c9fe9a73e.js, line 29: Script terminated by timeout at:
+je@https://s3.glbimg.com/v1/AUTH_b002e0039b9f46a5a4a94ff667d31e2d/assets/dist/0d4b7326e4b73935c573864c9fe9a73e.js:29:153835
+Me/<@https://s3.glbimg.com/v1/AUTH_b002e0039b9f46a5a4a94ff667d31e2d/assets/dist/0d4b7326e4b73935c573864c9fe9a73e.js:29:158896
+f@https://imasdk.googleapis.com/js/sdkloader/ima3.js:102:790
+Rg/<@https://imasdk.googleapis.com/js/sdkloader/ima3.js:102:878
+zj/this.ha@https://imasdk.googleapis.com/js/sdkloader/ima3.js:137:127
+
+1713281601053	Marionette	INFO	Stopped listening on port 44835
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1713282275298	geckodriver	INFO	Listening on 127.0.0.1:56353
+1713282275826	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42287" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePjZSlA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713282276649	Marionette	INFO	Marionette enabled
+1713282276769	Marionette	INFO	Listening on port 46831
+WebDriver BiDi listening on ws://127.0.0.1:42287
+Read port: 46831
+1713282277008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:42287/devtools/browser/e33047c6-87b7-4c19-b6c5-55259463a1d7
+JavaScript error: https://s3.glbimg.com/v1/AUTH_e1b09a2d222b4900a437a46914be81e5/api/stable/web/api.min.js?loading-agent=global-webdeps, line 1: Error: Player API loaded twice! Aborting.
+1713282281020	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1713282303201	Marionette	INFO	Stopped listening on port 46831
+JavaScript warning: https://d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app/d39f98ec-9259-4f8b-896d-7ab58be1f900-web.js, line 1: Script terminated by timeout at:
+e@https://d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app/d39f98ec-9259-4f8b-896d-7ab58be1f900-web.js:1:264546
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[100229] Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1713282351797	geckodriver	INFO	Listening on 127.0.0.1:41469
+1713282351850	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "33511" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuyszSc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713282352619	Marionette	INFO	Marionette enabled
+1713282352732	Marionette	INFO	Listening on port 43115
+WebDriver BiDi listening on ws://127.0.0.1:33511
+Read port: 43115
+1713282352815	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:33511/devtools/browser/2b103afc-aff6-444a-a4f6-0063316221b3
+JavaScript error: https://s3.glbimg.com/v1/AUTH_e1b09a2d222b4900a437a46914be81e5/api/stable/web/api.min.js?loading-agent=global-webdeps, line 1: Error: Player API loaded twice! Aborting.
+1713282356970	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1713282382908	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1713282429992	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1713282463307	geckodriver	INFO	Listening on 127.0.0.1:47913
+1713282463344	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "55399" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQwD7d0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713282464123	Marionette	INFO	Marionette enabled
+1713282464240	Marionette	INFO	Listening on port 33139
+Read port: 33139
+WebDriver BiDi listening on ws://127.0.0.1:55399
+1713282464329	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55399/devtools/browser/ae242831-5cbc-4574-ad4b-8c1acee465d4
+JavaScript error: https://s3.glbimg.com/v1/AUTH_e1b09a2d222b4900a437a46914be81e5/api/stable/web/api.min.js?loading-agent=global-webdeps, line 1: Error: Player API loaded twice! Aborting.
+1713282468725	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1713282474446	Marionette	INFO	Stopped listening on port 33139
+JavaScript warning: https://d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app/d39f98ec-9259-4f8b-896d-7ab58be1f900-web.js, line 1: Script terminated by timeout at:
+HJ@https://d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app/d39f98ec-9259-4f8b-896d-7ab58be1f900-web.js:1:15354
+4730/debounce/<@https://d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app/d39f98ec-9259-4f8b-896d-7ab58be1f900-web.js:1:264177
+add@https://d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app/d39f98ec-9259-4f8b-896d-7ab58be1f900-web.js:1:164612
+5630/k/</<@https://d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app/d39f98ec-9259-4f8b-896d-7ab58be1f900-web.js:1:167007
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[102334] Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo

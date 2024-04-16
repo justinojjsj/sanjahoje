@@ -26,7 +26,6 @@
         <div class="container">
 
             <br>    
-
             
             <div class="alert alert-info text-center rounded-pill" role="alert">
                 <h2>
@@ -89,12 +88,32 @@
                     <div class="col">
                         <div class="card h-100">
                             <div class="card-body"> 
-                                <img src="./file.jpg" class="card-img-top" alt="...">   
+                            <?php
+                                    include_once('conexao_noticias.php');
+
+                                    $data = date('Y-m-d');
+                                    //echo $data;
+
+                                    // $consulta = "SELECT * FROM dados WHERE data_coleta='$data' ORDER BY id ASC";
+                                    // $resultado = mysqli_query($conn, $consulta);
+                                    // $dados = mysqli_fetch_assoc($resultado);                                                                                             
+                   									
+                                    // echo "<a href=".$dados['url'].">".$dados['titulo']."</a> - ".$dados['tempo'];
+                                    // echo "<br><br>";		
+                                    
+                                    $sql = "SELECT * FROM dados WHERE data_coleta='$data' ORDER BY id ASC LIMIT 4";
+									$result = $conn->query($sql);
+
+                                    while($dados = mysqli_fetch_assoc($result)){
+                                        echo "<a href=".$dados['url'].">".$dados['titulo']."</a> - ".$dados['tempo'];
+                                        echo "<br><br>";		                                         
+                                    }
+                                ?>
                             </div>
                             
                             <div class="card-footer">
-                                <h5 class="card-title">Alertas da Defesa Civil</h5>
-                                <p class="card-text">Informações obtidas da Defesa Civil do Estado de São Paulo, referente ao CEP XX.XXX-XXX (Rua Tal, Bairro Tal, SJC-SP).</p>
+                                <h5 class="card-title">Últimas notícias do G1</h5>
+                                <p class="card-text">Notícias de São José dos Campos coletadas no portal do G1</p>
                             </div>
                             <div class="card-footer">
                                 <small class="text-muted">Last updated 3 mins ago</small>
