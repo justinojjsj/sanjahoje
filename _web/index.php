@@ -75,7 +75,7 @@
                                 ?>
                             </div>
 
-                            <div class="card-footer">
+                            <div class="card-footer"  style="height: 10rem;">
                                 <h5 class="card-title">Condições Climáticas</h5>
                                 <p class="card-text">Dados obtidos do Centro de Previsão de Tempo e Estudos Climáticos do Instituto Nacional de Pesquisas Espaciais (CPTEC/INPE) </p>
                             </div>
@@ -89,34 +89,41 @@
                         <div class="card h-100">
                             <div class="card-body"> 
                             <?php
-                                    include_once('conexao_noticias.php');
+                                include_once('conexao_noticias.php');
 
-                                    $data = date('Y-m-d');
-                                    //echo $data;
+                                $data = date('Y-m-d');
+                                //echo $data;
 
-                                    // $consulta = "SELECT * FROM dados WHERE data_coleta='$data' ORDER BY id ASC";
-                                    // $resultado = mysqli_query($conn, $consulta);
-                                    // $dados = mysqli_fetch_assoc($resultado);                                                                                             
-                   									
-                                    // echo "<a href=".$dados['url'].">".$dados['titulo']."</a> - ".$dados['tempo'];
-                                    // echo "<br><br>";		
-                                    
-                                    $sql = "SELECT * FROM dados WHERE data_coleta='$data' ORDER BY id ASC LIMIT 4";
-									$result = $conn->query($sql);
+                                // $consulta = "SELECT * FROM dados WHERE data_coleta='$data' ORDER BY id ASC";
+                                // $resultado = mysqli_query($conn, $consulta);
+                                // $dados = mysqli_fetch_assoc($resultado);                                                                                             
+                                                
+                                // echo "<a href=".$dados['url'].">".$dados['titulo']."</a> - ".$dados['tempo'];
+                                // echo "<br><br>";		
+                                
+                                $sql = "SELECT * FROM dados WHERE data_coleta='$data' ORDER BY id ASC LIMIT 4";
+                                $result = $conn->query($sql);
 
-                                    while($dados = mysqli_fetch_assoc($result)){
-                                        echo "<a href=".$dados['url'].">".$dados['titulo']."</a> - ".$dados['tempo'];
-                                        echo "<br><br>";		                                         
-                                    }
-                                ?>
+                                while($dados = mysqli_fetch_assoc($result)){
+                                    echo "<a href=".$dados['url'].">".$dados['titulo']."</a> - ".$dados['tempo'];
+                                    echo "<br><br>";		                                         
+                                }        
+                            ?>
                             </div>
                             
-                            <div class="card-footer">
+                            <div class="card-footer" style="height: 10rem;">
                                 <h5 class="card-title">Últimas notícias do G1</h5>
                                 <p class="card-text">Notícias de São José dos Campos coletadas no portal do G1</p>
                             </div>
                             <div class="card-footer">
-                                <small class="text-muted">Last updated 3 mins ago</small>
+                                <small class="text-muted">Última atualização: 
+                                    <?php 
+                                        $consulta = "SELECT * FROM dados ORDER BY id DESC LIMIT 1";
+                                        $resultado = mysqli_query($conn, $consulta);
+                                        $dados = mysqli_fetch_assoc($resultado);                                         
+                                        echo $dados['hora_coleta'];                                  
+                                    ?>                            
+                                </small>
                             </div>
                         </div>
                     </div>
@@ -126,7 +133,7 @@
                             <div class="card-body"> 
                                     <img src="./file.jpg" class="card-img-top" alt="...">   
                                 </div>
-                            <div class="card-footer">
+                            <div class="card-footer" style="height: 10rem;">
                                 <h5 class="card-title">Condições de Tráfego na Via Dutra</h5>
                                 <p class="card-text">Dados Obtidos da Concessionáio CCR-RIOSP, referente ao trecho de São José dos Campos, Km XXX ao KM XXX.</p>
                             </div>
