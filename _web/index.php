@@ -1,4 +1,15 @@
 <html>
+    <!-- 
+        AJUSTAR HORA DO PHP
+
+        php --ini
+        cd /usr/local/etc/php/
+        cp php.ini-development php.ini
+        nano php.ini
+        #procurar Date
+        #habilitar
+        date.timezone = America/Sao_Paulo
+    -->
     <head>
         <?php include "./header.php"; ?>
     </head>
