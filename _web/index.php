@@ -92,7 +92,7 @@
                                 include_once('conexao_noticias.php');
 
                                 $data = date('Y-m-d');
-                                //echo $data;
+                                // echo $data;
 
                                 // $consulta = "SELECT * FROM dados WHERE data_coleta='$data' ORDER BY id ASC";
                                 // $resultado = mysqli_query($conn, $consulta);
@@ -101,13 +101,15 @@
                                 // echo "<a href=".$dados['url'].">".$dados['titulo']."</a> - ".$dados['tempo'];
                                 // echo "<br><br>";		
                                 
-                                $sql = "SELECT * FROM dados WHERE data_coleta='$data' ORDER BY id ASC LIMIT 4";
+                                $sql = "SELECT * FROM dados WHERE data_coleta='$data' ORDER BY id DESC LIMIT 4";
                                 $result = $conn->query($sql);
 
                                 while($dados = mysqli_fetch_assoc($result)){
                                     echo "<a href=".$dados['url'].">".$dados['titulo']."</a> - ".$dados['tempo'];
-                                    echo "<br><br>";		                                         
+                                    echo "<br><br>";		
+                                                           
                                 }        
+                                
                             ?>
                             </div>
                             
