@@ -1,3 +1,5 @@
+#Colocar no cron 0,15,30,45 * * * * /app/exec_noticias.sh
+
 import requests
 import bs4
 from datetime import date
@@ -35,6 +37,7 @@ consulta = db_connection.cursor()
 consulta.execute("SELECT * FROM dados ORDER BY id DESC LIMIT 7")
 row = consulta.fetchone()
 
+iguais=0
 while row is not None:
     #print(row[2])
     noticia_velha = row[2]
