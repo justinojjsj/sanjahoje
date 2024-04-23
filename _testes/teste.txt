@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE                   COMMAND                  CREATED        STATUS        PORTS     NAMES
+cad9927d4260   sanjahoje-python-inpe   "/docker-entrypoint.…"   17 hours ago   Up 17 hours             sanjahoje_python_inpe

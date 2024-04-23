@@ -6,7 +6,7 @@ services:
     build:
       context: .
       dockerfile: dockerfile-php-apache
-    container_name: sanjahoje_php-apache
+    container_name: sanjahoje_php_apache
     volumes:
       - ./_web:/var/www/html
       - ./sites-available/:/etc/apache2/sites-available/

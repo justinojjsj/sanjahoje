@@ -1,6 +1,7 @@
 #Colocar no agendamento do cron:
 #crontab -e
 #0,15,30,45 * * * * /app/exec_inpe.sh
+#ln -fs /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime 
 
 #Importando bibliotecas necessárias
 
