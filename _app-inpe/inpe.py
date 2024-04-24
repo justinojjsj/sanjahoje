@@ -96,10 +96,10 @@ else:
             print("Dados já salvos no banco, mas houve atualização")
             coleta()
         else:
-            print("Dados já salvos no banco, NÃO houve atualização")
+            print("Dados já salvos no banco, não houve atualização")
     elif(tamanho == 15):
         if(db_chuva_manha != texto[3] or db_chuva_tarde != texto[5] or db_chuva_noite != texto[7] or db_temp_max != texto[9] or db_temp_min != texto[10] or db_ind_uv != texto[12] or db_amanhecer != texto[13] or db_entardecer != texto[14]):
             print("Dados já salvos no banco, mas houve atualização")
             coleta()
         else:
-            print("Dados já salvos no banco, NÃO houve atualização")
+            print("Dados já salvos no banco, não houve atualização")

@@ -13,3 +13,4 @@ COPY docker-entrypoint.sh /
 RUN chmod +x /docker-entrypoint.sh
 ENTRYPOINT [ "/docker-entrypoint.sh" ]
 CMD [ "sleep", "infinity" ]
+RUN ln -fs /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime 
