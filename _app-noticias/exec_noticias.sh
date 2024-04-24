@@ -2,4 +2,4 @@
 
 cd /app
 /usr/local/bin/python /app/noticias.py
-date >> funcionou.txt
+date >> hora_executada.log

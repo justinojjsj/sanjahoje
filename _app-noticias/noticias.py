@@ -20,15 +20,6 @@ lista_tempo = pagina.find_all("span", class_="feed-post-datetime")
 tam_nt = len(lista_noticias)
 tam_tp = len(lista_tempo)
 
-# for noticia in lista_noticias:
-#     print(noticia.text)
-#     print(noticia.get("href"))
-#     print("###################")
-    
-# for tempo in lista_tempo:
-#     print(tempo.text)
-#     print("###################")
-
 data = date.today()
 hora = datetime.now()
 hora = hora.strftime('%H:%M:%S')
@@ -40,17 +31,14 @@ row = consulta.fetchone()
 
 iguais=0
 while row is not None:
-    #print(row[2])
     noticia_velha = row[2]
     
     i=0
     iguais=0
     while(i<7):
-        #print(lista_noticias[i].get("href"))     
         noticia_fresca = lista_noticias[i].get("href")
     
         if(noticia_fresca == noticia_velha):
-            #print(str(i)+' noticia igual '+noticia_velha)
             iguais=iguais+1
         
         i=i+1    
@@ -67,14 +55,7 @@ if(diferentes > 0):
     tempo = []
     
     while(i < tam_nt):
-        #print(i)
-        #print(lista_noticias[i].text)     
         texto = (lista_noticias[i].text).replace("'", "")
-        #print(texto)
-        #print(lista_noticias[i].get("href"))     
-        #print(lista_tempo[i].text)     
-        #print("###################")
-        
         titulo.append(texto)    
         url.append(lista_noticias[i].get("href"))  
         tempo.append(lista_tempo[i].text)
@@ -96,11 +77,3 @@ if(diferentes > 0):
     db_connection.close()
 else:
     print('As notícias estão atualizadas')
-
-
-#Salva somente as notícias mais re
-
-
-    
-
-
