@@ -11,6 +11,10 @@
         date.timezone = America/Sao_Paulo
     -->
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="refresh" content="180">
+        <title>Sanja Hoje</title>
+        <link rel="icon" type="image/png" href="./favicon.ico"/>
         <?php include "./header.php"; ?>
     </head>
 
