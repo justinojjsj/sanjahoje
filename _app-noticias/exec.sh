@@ -2,4 +2,4 @@
 
 cd /app
 /usr/local/bin/python /app/noticias.py
-date >> hora_executada.log
+date '+%d/%m/%y - %H:%M:%S' >> hora_executada.log

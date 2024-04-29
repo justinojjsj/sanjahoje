@@ -1,4 +1,4 @@
-#Colocar no cron 0,15,30,45 * * * * /app/exec_noticias.sh
+#Colocar no cron 0,15,30,45 * * * * /app/exec.sh
 #ln -fs /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 
 import requests
