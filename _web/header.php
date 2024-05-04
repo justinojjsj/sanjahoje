@@ -8,7 +8,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- CSS -->
-<link rel="stylesheet" href="datahora.css" />
+<link rel="stylesheet" href="./css/datahora.css" />
+<link rel="stylesheet" href="./css/style.css" />
 
 
 <!-- Scripts Java criados -->

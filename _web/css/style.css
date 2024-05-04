@@ -1,0 +1,51 @@
+.inpe{
+    text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+    padding: 10px;
+    font-size: 20px;
+	font-weight: 800;
+}
+
+.inpe-titulo{
+    text-align: center;
+	display: flex;
+	flex-direction: column !important;
+	justify-content: center;
+	align-items: center;
+    padding: 10px;
+    font-size: 20px;
+	font-weight: 800;
+}
+
+#chuva{
+
+    background-color: burlywood;
+}
+
+#gota{
+    height: 25px;
+	width: 25px;
+    background-image: url("../img/drop.png");
+    background-size: 25px 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+    -border: 5px;
+	-border-style: solid;
+	-border-color: #f7f6ec;
+	-border-radius: 6px;    
+}
+
+#temperatura{
+    background-color: pink;
+}
+
+#induv{
+    background-color: aliceblue;
+}
+
+#sol{
+    background-color: aqua;
+}

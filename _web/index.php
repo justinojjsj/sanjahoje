@@ -14,7 +14,7 @@
         <meta charset="utf-8">
         <meta http-equiv="refresh" content="180">
         <title>Sanja Hoje</title>
-        <link rel="icon" type="image/png" href="./favicon.ico"/>
+        <link rel="icon" type="image/png" href="./img/favicon.ico"/>
         <?php include "./header.php"; ?>
     </head>
 
@@ -71,22 +71,57 @@
                                     $consulta = "SELECT * FROM dados ORDER BY id DESC LIMIT 1";
                                     $resultado = mysqli_query($conn, $consulta);
                                     $dados = mysqli_fetch_assoc($resultado); 
-                                                                                            
-                                    echo "Probabilidade de chuva de manhã: ".$dados['chuva_manha'];	
-                                    echo "<br>";										
-                                    echo "Probabilidade de chuva a tarde: ".$dados['chuva_tarde'];
-                                    echo "<br>";									
-                                    echo "Probabilidade de chuva a noite: ".$dados['chuva_noite'];
-                                    echo "<br>";										
-                                    echo "Temperatura máxima: ".$dados['temp_max'];
-                                    echo "<br>";										
-                                    echo "Temperatura mínima: ".$dados['temp_min'];
-                                    echo "<br>";										
-                                    echo "Índice UV: ".$dados['ind_uv'];
-                                    echo "<br>";										
-                                    echo "Nascer do Sol: ".$dados['amanhecer'];
-                                    echo "<br>";										
-                                    echo "Pôr do Sol: ".$dados['entardecer'];
+
+                                    echo "<div id='chuva' class='inpe-titulo'>";             
+                                        echo "Chuva";   
+                                        echo "<br>";	   
+                                        echo "<div class='inpe'>";                  
+                                            if ($dados['chuva_manha']!='Sem dados'){
+                                                echo "<div id='chuva-manha' class='inpe'>";
+                                                    echo "Manhã: ".$dados['chuva_manha'];  
+                                                    echo "<div id='gota' class='inpe'></div>";                                                
+                                                echo "</div>";                                  									
+                                            }                                    
+                                            echo "<div id='chuva-tarde' class='inpe'>";
+                                                echo "Tarde: ".$dados['chuva_tarde'];        
+                                                echo "<div id='gota' class='inpe'></div>";                                                
+                                            echo "</div>";        
+                                            echo "<div id='chuva-noite' class='inpe'>";
+                                                echo "Noite: ".$dados['chuva_noite'];
+                                                echo "<div id='gota' class='inpe'></div>";                                                
+                                            echo "</div>";        
+                                            echo "<br>";	                                    
+                                        echo "</div>";
+                                    echo "</div>";
+                                    echo "<div id='temperatura' class='inpe-titulo'>";                                        
+                                        echo "Temperatura";
+                                        echo "<br>";	
+                                        echo "<div class='inpe'>";
+                                            echo "<div id='temperatura-min' class='inpe'>";
+                                                echo "Mínima: ".$dados['temp_min'];
+                                            echo "</div>";
+                                            echo "<div id='temperatura-max' class='inpe'>";
+                                                echo "Máxima: ".$dados['temp_max'];                                        							
+                                            echo "</div>";
+                                            echo "<br>";	
+                                        echo "</div>";	
+                                    echo "</div>";								
+                                    echo "<div id='induv' class='inpe'>";
+                                        echo "Índice UV: ".$dados['ind_uv'];
+                                        echo "<br>";								
+                                    echo "</div>";										
+                                    echo "<div id='sol' class='inpe'>";
+                                        echo "<div id='sol-nascer' class='inpe'>";
+                                            echo "Nascer do Sol";
+                                            echo "<br>";	
+                                            echo $dados['amanhecer'];
+                                        echo "</div>";	
+                                        echo "<div id='sol-por' class='inpe'>";
+                                            echo "Pôr do Sol";
+                                            echo "<br>";	
+                                            echo $dados['entardecer'];
+                                        echo "</div>";									
+                                    echo "</div>";										
                                 ?>
                             </div>
 
@@ -148,7 +183,7 @@
                     <div class="col">
                         <div class="card h-100">
                             <div class="card-body"> 
-                                    <img src="./file.jpg" class="card-img-top" alt="...">   
+                                    <img src="./img/file.jpg" class="card-img-top" alt="...">   
                                 </div>
                             <div class="card-footer" style="height: 10rem;">
                                 <h5 class="card-title">Condições de Tráfego na Via Dutra</h5>
