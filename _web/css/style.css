@@ -1,3 +1,14 @@
+body{
+	background-image: url("../img/pattern.png");
+}
+
+.borda{
+    border: 3px;
+	border-style: solid;
+	border-color: #f7f6ec;
+	border-radius: 3px;    
+}
+
 .inpe{
     text-align: center;
 	display: flex;
@@ -22,7 +33,7 @@
 
 #chuva{
 
-    background-color: burlywood;
+    background-color: rgb(205, 225, 234);
 }
 
 #gota{
@@ -32,14 +43,28 @@
     background-size: 25px 25px;
 	background-position: center;
 	background-repeat: no-repeat;
-    -border: 5px;
-	-border-style: solid;
-	-border-color: #f7f6ec;
-	-border-radius: 6px;    
 }
 
 #temperatura{
-    background-color: pink;
+    background-color: rgb(253, 207, 215);
+}
+
+#frio{
+    height: 30px;
+	width: 30px;
+    background-image: url("../img/cold.png");
+    background-size: 30px 30px;
+	background-position: center;
+	background-repeat: no-repeat;  
+}
+
+#quente{
+    height: 30px;
+	width: 30px;
+    background-image: url("../img/hot.png");
+    background-size: 30px 30px;
+	background-position: center;
+	background-repeat: no-repeat;  
 }
 
 #induv{
@@ -47,5 +72,23 @@
 }
 
 #sol{
-    background-color: aqua;
+    background-color: rgb(255, 247, 0);
+}
+
+#sunrise{
+    height: 35px;
+	width: 35px;
+    background-image: url("../img/sunrise.png");
+    background-size: 35px 35px;
+	background-position: center;
+	background-repeat: no-repeat;  
+}
+
+#sunset{
+    height: 35px;
+	width: 35px;
+    background-image: url("../img/sunset.png");
+    background-size: 35px 35px;
+	background-position: center;
+	background-repeat: no-repeat;  
 }

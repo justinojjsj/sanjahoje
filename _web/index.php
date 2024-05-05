@@ -62,9 +62,9 @@
                 <div class="row row-cols-1 row-cols-md-3 g-4 ">
 
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card h-100" style="background-image: url('./img/clima.jpg');">
 
-                            <div class="card-body">
+                            <div class="card-body borda">
                                 <?php
                                     include_once('conexao_inpe.php');
 
@@ -72,7 +72,7 @@
                                     $resultado = mysqli_query($conn, $consulta);
                                     $dados = mysqli_fetch_assoc($resultado); 
 
-                                    echo "<div id='chuva' class='inpe-titulo'>";             
+                                    echo "<div id='chuva' class='inpe-titulo borda'>";             
                                         echo "Chuva";   
                                         echo "<br>";	   
                                         echo "<div class='inpe'>";                  
@@ -93,44 +93,54 @@
                                             echo "<br>";	                                    
                                         echo "</div>";
                                     echo "</div>";
-                                    echo "<div id='temperatura' class='inpe-titulo'>";                                        
+                                    echo "<div id='temperatura' class='inpe-titulo borda'>";                                        
                                         echo "Temperatura";
                                         echo "<br>";	
                                         echo "<div class='inpe'>";
                                             echo "<div id='temperatura-min' class='inpe'>";
-                                                echo "Mínima: ".$dados['temp_min'];
+                                                echo "<div id='frio' class='inpe'></div>";
+                                                echo $dados['temp_min'];                                                    
                                             echo "</div>";
                                             echo "<div id='temperatura-max' class='inpe'>";
-                                                echo "Máxima: ".$dados['temp_max'];                                        							
+                                                echo "<div id='quente' class='inpe'></div>";                                							
+                                                echo $dados['temp_max'];                                                            
                                             echo "</div>";
                                             echo "<br>";	
                                         echo "</div>";	
                                     echo "</div>";								
-                                    echo "<div id='induv' class='inpe'>";
-                                        echo "Índice UV: ".$dados['ind_uv'];
-                                        echo "<br>";								
+                                    echo "<div id='induv' class='inpe borda'>";
+                                        echo "Índice UV <a href='https://pt.wikipedia.org/wiki/%C3%8Dndice_ultravioleta'>(?)</a>: ";
+                                        if($dados['ind_uv'] <= 2.9){
+                                            echo "<a style='margin-left: 10px; color: green;'>".$dados['ind_uv']."</a>";                                
+                                        }elseif($dados['ind_uv'] >= 3 && $dados['ind_uv'] <= 5.9){
+                                            echo "<a style='margin-left: 10px; color: yellow;'>".$dados['ind_uv']."</a>";                                
+                                        }elseif($dados['ind_uv'] >= 6 && $dados['ind_uv'] <= 7.9){
+                                            echo "<a style='margin-left: 10px; color: orange;'>".$dados['ind_uv']."</a>";                                
+                                        }elseif($dados['ind_uv'] >= 8 && $dados['ind_uv'] <= 10.9){
+                                            echo "<a style='margin-left: 10px; color: red;'>".$dados['ind_uv']."</a>";                                
+                                        }else{
+                                            echo "<a style='margin-left: 10px; color: purple;'>".$dados['ind_uv']."</a>";                                
+                                        }
                                     echo "</div>";										
-                                    echo "<div id='sol' class='inpe'>";
-                                        echo "<div id='sol-nascer' class='inpe'>";
-                                            echo "Nascer do Sol";
-                                            echo "<br>";	
+                                    echo "<div id='sol' class='inpe borda'>";
+                                        echo "<div id='sol-nascer' class='inpe-titulo'>";
+                                            echo "<div id='sunrise'></div>";
                                             echo $dados['amanhecer'];
                                         echo "</div>";	
-                                        echo "<div id='sol-por' class='inpe'>";
-                                            echo "Pôr do Sol";
-                                            echo "<br>";	
+                                        echo "<div id='sol-por' class='inpe-titulo'>";
+                                            echo "<div id='sunset'></div>";
                                             echo $dados['entardecer'];
                                         echo "</div>";									
                                     echo "</div>";										
                                 ?>
                             </div>
 
-                            <div class="card-footer"  style="height: 10rem;">
+                            <div class="card-footer borda"  style="height: 10rem; color: white; font-weight: 800; text-shadow: black 0.1em 0.1em 0.2em;">
                                 <h5 class="card-title">Condições Climáticas</h5>
                                 <p class="card-text">Dados obtidos do Centro de Previsão de Tempo e Estudos Climáticos do Instituto Nacional de Pesquisas Espaciais (CPTEC/INPE) </p>
                             </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Última atualização: <?php echo $dados['hora_coleta']; ?></small>
+                            <div class="card-footer borda" style="color: white; font-weight: 800; text-shadow: green 0.1em 0.1em 0.2em; text-align: center;">
+                                <small>Última atualização: <?php echo $dados['hora_coleta']; ?></small>
                             </div>
                         </div>
                     </div>
