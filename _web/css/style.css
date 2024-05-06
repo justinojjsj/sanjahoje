@@ -3,10 +3,28 @@ body{
 }
 
 .borda{
-    border: 3px;
+    border: 2px;
 	border-style: solid;
-	border-color: #f7f6ec;
+	border-color: #f7f6ece4;
 	border-radius: 3px;    
+}
+
+.borda2{
+    border: 2px;
+	border-style: solid;
+	border-color: #c8c7c7;
+	border-radius: 3px;    
+}
+
+.atualizacao{
+	color: rgb(255, 50, 50);
+	font-weight: 800;
+	text-shadow: rgb(255, 248, 248)0.1em 0.1em 0.1em;
+	text-align: center;
+	font-size: 18px;
+	-webkit-text-stroke-width: 0.9px;
+	-webkit-text-stroke-color: rgb(255, 18, 18);
+
 }
 
 .inpe{
@@ -32,7 +50,6 @@ body{
 }
 
 #chuva{
-
     background-color: rgb(205, 225, 234);
 }
 
