@@ -2,10 +2,14 @@ body{
 	background-image: url("../img/pattern.png");
 }
 
+.fundo-cinza{
+	background-color:rgba(242, 246, 248, 0.932);
+}
+
 .borda{
     border: 2px;
 	border-style: solid;
-	border-color: #f7f6ece4;
+	border-color: #fa0303e4;
 	border-radius: 3px;    
 }
 
@@ -17,14 +21,7 @@ body{
 }
 
 .atualizacao{
-	color: rgb(255, 50, 50);
-	font-weight: 800;
-	text-shadow: rgb(255, 248, 248)0.1em 0.1em 0.1em;
 	text-align: center;
-	font-size: 18px;
-	-webkit-text-stroke-width: 0.9px;
-	-webkit-text-stroke-color: rgb(255, 18, 18);
-
 }
 
 .inpe{

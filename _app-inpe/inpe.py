@@ -67,7 +67,17 @@ def coleta():
         ind_uv = texto[12]
         amanhecer = texto[13]
         entardecer = texto[14]
-
+    
+    if (len(temp_min) == 1):
+        temp_min = temp_min[:1]
+    else:    
+        temp_min = temp_min[:2]
+        
+    if (len(temp_max) == 1):
+        temp_max = temp_max[:1]
+    else:    
+        temp_max = temp_max[:2]
+        
     print(' ')
     print('Data'+': '+data)
     print('Probabilidade de chuva de manhã'+': '+chuva_manha)
@@ -87,7 +97,7 @@ def coleta():
     cursor.close()
     db_connection.commit()
     db_connection.close()
-
+    
 if (db_data!=dataFormatada):#If para verificar se já foi salvo os dados do banco hoje
     coleta()
 else:
