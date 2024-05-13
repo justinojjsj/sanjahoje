@@ -218,6 +218,21 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body"> 
+                                    <img src="./img/file.jpg" class="card-img-top" alt="...">   
+                                </div>
+                            <div class="card-footer" style="height: 9rem;">
+                                <h5 class="card-title">Condições de Tráfego na Via Dutra</h5>
+                                <p class="card-text">Dados Obtidos da Concessionáio CCR-RIOSP, referente ao trecho de São José dos Campos, Km XXX ao KM XXX.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
                 </div>   
             
         </div>

@@ -1,5 +1,0 @@
-#selenium
-mysql-connector-python
-datetime
-pyautogui
-pillow

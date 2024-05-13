@@ -1,0 +1,601 @@
+1715612618792	geckodriver	INFO	Listening on 127.0.0.1:49023
+1715612619341	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "43979" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTysWWQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715612620714	Marionette	INFO	Marionette enabled
+1715612620887	Marionette	INFO	Listening on port 46223
+WebDriver BiDi listening on ws://127.0.0.1:43979
+Read port: 46223
+1715612621200	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:43979/devtools/browser/5e50b647-d2f5-46b4-8d2f-88bccea8b49c
+JavaScript error: https://tempo.cptec.inpe.br/js/app.js, line 25: Error: Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.5.3
+    at module.exports (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:13:17)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:192:19
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:170:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:27:11)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:179:3)
+    at NormalModule.build (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModule.js:268:15)
+    at Compilation.buildModule (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:142:10)
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/Compilation.js:429:9
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:251:4
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:93:13
+    at /dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:204:11
+    at NormalModuleFactory.<anonymous> (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/tapable/lib/Tapable.js:208:13)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:68:11)
+    at onDoneResolving (/dados/sites/tempo.cptec.inpe.br/eyaexohw/site/node_modules/webpack/lib/NormalModuleFactory.js:197:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+1715612625628	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c, line 643: Script terminated by timeout at:
+aa.Dm@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:643:297
+aa.Cm/</<@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:632:218
+el@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:346:438
+rl@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:349:153
+aa.Cm/<@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:632:204
+c@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:465:169
+tt@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:466:269
+aa.Cm@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:632:190
+c@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:653:675
+Tm@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:358:298
+Sm.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:361:278
+Sm.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:359:207
+Lm@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:356:770
+yG/<@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:654:178
+aa.Mk/<@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:602:126
+aa.Mk/c/<@https://www.googletagmanager.com/gtag/js?id=G-J650QZP9FG&l=dataLayer&cx=c:601:420
+
+1715612635243	Marionette	INFO	Stopped listening on port 46223
+1715612656210	geckodriver	INFO	Listening on 127.0.0.1:36761
+1715612656266	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "43757" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiMAhkr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715612657123	Marionette	INFO	Marionette enabled
+1715612657277	Marionette	INFO	Listening on port 35063
+WebDriver BiDi listening on ws://127.0.0.1:43757
+Read port: 35063
+1715612657557	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:43757/devtools/browser/16dec34f-6350-411a-8239-cd029448218f
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+libva info: va_openDriver() returns 1
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+libva info: Found init function __vaDriverInit_1_10
+libva info: va_openDriver() returns 0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c, line 157: Script terminated by timeout at:
+zb@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:157:128
+xl@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:320:594
+Lm@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:327:747
+yG/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:610:178
+aa.Mk/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:558:126
+aa.Mk/c/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:557:420
+
+1715612681903	Marionette	INFO	Stopped listening on port 35063
+1715613156539	geckodriver	INFO	Listening on 127.0.0.1:46171
+1715613157079	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "40463" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileC2G2kw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715613157955	Marionette	INFO	Marionette enabled
+1715613158129	Marionette	INFO	Listening on port 35055
+WebDriver BiDi listening on ws://127.0.0.1:40463
+Read port: 35055
+1715613158457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:40463/devtools/browser/3025b090-ecdc-4e5d-a89a-30b9e85db940
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+libva info: va_openDriver() returns 1
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+libva info: Found init function __vaDriverInit_1_10
+libva info: va_openDriver() returns 0
+1715613167005	Marionette	INFO	Stopped listening on port 35055
+JavaScript warning: https://cdn.jsdelivr.net/npm/hls.js@latest, line 1: Script terminated by timeout at:
+i/e.tick@https://cdn.jsdelivr.net/npm/hls.js@latest:1:103529
+
+1715613243821	geckodriver	INFO	Listening on 127.0.0.1:45337
+1715613243861	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "53209" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilep4Gf9j"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715613244802	Marionette	INFO	Marionette enabled
+1715613244967	Marionette	INFO	Listening on port 39551
+WebDriver BiDi listening on ws://127.0.0.1:53209
+Read port: 39551
+1715613245297	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53209/devtools/browser/26a02164-20be-4b6a-8187-7fc2054a0af2
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+libva info: va_openDriver() returns 1
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+libva info: Found init function __vaDriverInit_1_10
+libva info: va_openDriver() returns 0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c, line 150: Script terminated by timeout at:
+Ua@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:150:227
+k@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:151:79
+Tm@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:328:246
+Sm.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:332:278
+Sm.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:330:207
+Lm@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:327:770
+yG/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:610:178
+aa.Mk/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:558:126
+aa.Mk/c/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:557:420
+
+1715613260676	Marionette	INFO	Stopped listening on port 39551
+1715613385644	geckodriver	INFO	Listening on 127.0.0.1:37551
+1715613385698	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "57061" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledGWaR1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715613386562	Marionette	INFO	Marionette enabled
+1715613386750	Marionette	INFO	Listening on port 46363
+WebDriver BiDi listening on ws://127.0.0.1:57061
+Read port: 46363
+1715613387006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57061/devtools/browser/edc70a82-5dcd-42ea-84e2-6b84741eda7b
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+libva info: va_openDriver() returns 1
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+libva info: Found init function __vaDriverInit_1_10
+libva info: va_openDriver() returns 0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c, line 559: Script terminated by timeout at:
+aa.xh@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:559:89
+get@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:557:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:557:87
+aa.Mk/c/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:557:412
+
+1715613412198	Marionette	INFO	Stopped listening on port 46363
+1715613457349	geckodriver	INFO	Listening on 127.0.0.1:56961
+1715613457911	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "33485" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9MaXdK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715613458893	Marionette	INFO	Marionette enabled
+1715613459053	Marionette	INFO	Listening on port 40159
+WebDriver BiDi listening on ws://127.0.0.1:33485
+Read port: 40159
+1715613459368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:33485/devtools/browser/3c685216-dfa1-4f76-9f6b-918e0a74410c
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+libva info: va_openDriver() returns 1
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+libva info: Found init function __vaDriverInit_1_10
+libva info: va_openDriver() returns 0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c, line 153: Script terminated by timeout at:
+aa.has@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:153:332
+Ja.prototype.get@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:153:900
+Ja.prototype.get@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:153:950
+Ja.prototype.get@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:153:950
+Ja.prototype.get@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:153:950
+Ja.prototype.get@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:153:950
+Na@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:154:335
+Uc.prototype.evaluate@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:181:72
+Md@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:206:44
+aa.invoke@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:180:308
+Na@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:154:465
+Uc.prototype.evaluate@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:181:72
+Zd@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:208:194
+aa.invoke@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:180:308
+Na@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:154:465
+Uc.prototype.evaluate@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:181:72
+od@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:196:258
+aa.invoke@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:180:308
+Na@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:154:465
+Ma@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:154:264
+Gd/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:204:20
+aa.invoke@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:180:308
+gH/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:623:491
+Dr@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:423:231
+aa.Dm@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:611:196
+aa.Cm/</<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:595:218
+el@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:324:438
+rl@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:327:153
+aa.Cm/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:595:204
+c@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:445:169
+tt@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:446:269
+aa.Cm@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:595:190
+c@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:616:675
+Tm@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:336:298
+Sm.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:339:278
+Sm.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:337:207
+Lm@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:334:770
+yG/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:617:178
+aa.Mk/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:565:126
+aa.Mk/c/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:564:420
+
+1715613474004	Marionette	INFO	Stopped listening on port 40159
+1715613573375	geckodriver	INFO	Listening on 127.0.0.1:55079
+1715613573432	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "57573" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekaWzTQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715613574287	Marionette	INFO	Marionette enabled
+1715613574460	Marionette	INFO	Listening on port 36395
+WebDriver BiDi listening on ws://127.0.0.1:57573
+Read port: 36395
+1715613574752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57573/devtools/browser/9825029f-198d-4bea-900b-39877248e07c
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+libva info: va_openDriver() returns 1
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+libva info: Found init function __vaDriverInit_1_10
+libva info: va_openDriver() returns 0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c, line 560: Script terminated by timeout at:
+aa.xh@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:560:42
+get@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:558:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:558:87
+aa.Mk/c/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:558:412
+
+1715613586271	Marionette	INFO	Stopped listening on port 36395
+1715613759986	geckodriver	INFO	Listening on 127.0.0.1:55777
+1715613760022	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "41667" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelkoHcF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715613760869	Marionette	INFO	Marionette enabled
+1715613761030	Marionette	INFO	Listening on port 34473
+WebDriver BiDi listening on ws://127.0.0.1:41667
+Read port: 34473
+1715613761340	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:41667/devtools/browser/61a9fa62-6fab-4088-9791-e2bad1cae444
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+libva info: va_openDriver() returns 1
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+libva info: Found init function __vaDriverInit_1_10
+libva info: va_openDriver() returns 0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c, line 559: Script terminated by timeout at:
+aa.xh@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:559:89
+get@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:557:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:557:87
+aa.Mk/c/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:557:412
+
+1715613776764	Marionette	INFO	Stopped listening on port 34473
+1715613837239	geckodriver	INFO	Listening on 127.0.0.1:35665
+1715613837277	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "36017" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilen1qiit"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715613838071	Marionette	INFO	Marionette enabled
+1715613838233	Marionette	INFO	Listening on port 38289
+WebDriver BiDi listening on ws://127.0.0.1:36017
+Read port: 38289
+1715613838485	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:36017/devtools/browser/31d6af6f-6522-4864-98af-3bf57de1e1f0
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+libva info: va_openDriver() returns 1
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+libva info: Found init function __vaDriverInit_1_10
+libva info: va_openDriver() returns 0
+1715613846178	Marionette	INFO	Stopped listening on port 38289
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 1023: Script terminated by timeout at:
+@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:1023:203
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 459: Script terminated by timeout at:
+h@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:459:321
+
+1715613866825	geckodriver	INFO	Listening on 127.0.0.1:41297
+1715613866871	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "60287" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGmV9L4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715613867730	Marionette	INFO	Marionette enabled
+1715613867898	Marionette	INFO	Listening on port 44471
+WebDriver BiDi listening on ws://127.0.0.1:60287
+Read port: 44471
+1715613868178	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60287/devtools/browser/b756927b-c85f-456c-b46c-d17baaf6b0c3
+1715613874280	Marionette	INFO	Stopped listening on port 44471
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 309: Script terminated by timeout at:
+J</<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:309:38
+@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:342:116
+h5@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:342:92
+gS.prototype.R@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:1022:287
+K<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:164:262
+mm@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:659:277
+y<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:107:339
+@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:1023:409
+
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+libva info: va_openDriver() returns 1
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+libva info: Found init function __vaDriverInit_1_10
+libva info: va_openDriver() returns 0
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 918: Script terminated by timeout at:
+C</<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:918:184
+h@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:459:437
+
+1715614175611	geckodriver	INFO	Listening on 127.0.0.1:36315
+1715614175649	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "55749" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFJ9ovE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715614176501	Marionette	INFO	Marionette enabled
+1715614176669	Marionette	INFO	Listening on port 43479
+WebDriver BiDi listening on ws://127.0.0.1:55749
+Read port: 43479
+1715614176945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55749/devtools/browser/781683e0-5284-46b3-983c-806ecf5ea211
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+libva info: va_openDriver() returns 1
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+libva info: Found init function __vaDriverInit_1_10
+libva info: va_openDriver() returns 0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c, line 559: Script terminated by timeout at:
+aa.xh@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:559:89
+get@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:557:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:557:87
+aa.Mk/c/<@https://www.googletagmanager.com/gtag/js?id=G-TPVS9DMK25&l=dataLayer&cx=c:557:412
+
+1715614208113	Marionette	INFO	Stopped listening on port 43479
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+1715614208205	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2152071198, errorCode: 2, reason: error
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", "resource://gre/modules/Region.sys.mjs", 738))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1715614400868	geckodriver	INFO	Listening on 127.0.0.1:59973
+1715614400906	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "38477" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileupeghj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715614401728	Marionette	INFO	Marionette enabled
+1715614401883	Marionette	INFO	Listening on port 35669
+WebDriver BiDi listening on ws://127.0.0.1:38477
+Read port: 35669
+1715614401990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:38477/devtools/browser/8d154066-9791-48be-b7e5-fd7efc102035
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+libva info: va_openDriver() returns 1
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+libva info: Found init function __vaDriverInit_1_10
+libva info: va_openDriver() returns 0
+JavaScript error: resource://gre/modules/PictureInPicture.sys.mjs, line 560: TypeError: browser is null
+1715614413130	Marionette	INFO	Stopped listening on port 35669
+1715614463817	geckodriver	INFO	Listening on 127.0.0.1:49677
+1715614464379	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "53691" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile80RloP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715614465278	Marionette	INFO	Marionette enabled
+1715614465444	Marionette	INFO	Listening on port 40587
+WebDriver BiDi listening on ws://127.0.0.1:53691
+Read port: 40587
+1715614465705	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53691/devtools/browser/18eb1759-529c-4b90-973e-0f7e7672212b
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+libva info: va_openDriver() returns 1
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+libva info: Found init function __vaDriverInit_1_10
+libva info: va_openDriver() returns 0
+1715614473932	Marionette	INFO	Stopped listening on port 40587
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 1023: Script terminated by timeout at:
+@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:1023:203
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 459: Script terminated by timeout at:
+h@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:459:321
+
+1715614493551	geckodriver	INFO	Listening on 127.0.0.1:34049
+1715614493608	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "58521" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileA53G1t"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715614494110	Marionette	INFO	Marionette enabled
+1715614494240	Marionette	INFO	Listening on port 32915
+WebDriver BiDi listening on ws://127.0.0.1:58521
+Read port: 32915
+1715614494505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58521/devtools/browser/b8b0d7b3-c5d4-46cf-97c8-6ff25fb559c3
+1715614501047	Marionette	INFO	Stopped listening on port 32915
+JavaScript warning: https://rodovias.grupoccr.com.br/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js, line 3: Script terminated by timeout at:
+scrollToAnchor/<@https://rodovias.grupoccr.com.br/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js:3:239
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 459: Script terminated by timeout at:
+h@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:459:321
+
+1715614632781	geckodriver	INFO	Listening on 127.0.0.1:47801
+1715614632823	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "50297" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerVFPkE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715614633327	Marionette	INFO	Marionette enabled
+1715614633432	Marionette	INFO	Listening on port 38727
+WebDriver BiDi listening on ws://127.0.0.1:50297
+Read port: 38727
+1715614633713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50297/devtools/browser/42984568-a931-42f7-b1d4-797179ea7ccb
+1715614662165	geckodriver	INFO	Listening on 127.0.0.1:53007
+1715614662224	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "42613" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFIaplb"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715614662801	Marionette	INFO	Marionette enabled
+1715614662905	Marionette	INFO	Listening on port 36379
+Read port: 36379
+WebDriver BiDi listening on ws://127.0.0.1:42613
+1715614663012	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1715614663369	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:42613/devtools/browser/5370a8bc-676c-4047-bbe3-cf36a00e4fc0
+1715614692912	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1715614710806	geckodriver	INFO	Listening on 127.0.0.1:42523
+1715614711356	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "33105" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledAJeFq"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715614712067	Marionette	INFO	Marionette enabled
+1715614712212	Marionette	INFO	Listening on port 33831
+Read port: 33831
+WebDriver BiDi listening on ws://127.0.0.1:33105
+1715614712409	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:33105/devtools/browser/48af0bfc-6464-4082-a8e2-723ae5724bbd
+1715614726423	Marionette	INFO	Stopped listening on port 33831
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 1023: Script terminated by timeout at:
+@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:1023:203
+
+1715614760033	geckodriver	INFO	Listening on 127.0.0.1:42837
+1715614760096	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "41431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGkjLWX"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715614760726	Marionette	INFO	Marionette enabled
+1715614760821	Marionette	INFO	Listening on port 40499
+WebDriver BiDi listening on ws://127.0.0.1:41431
+Read port: 40499
+1715614761116	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:41431/devtools/browser/3fe6c2c4-777a-4a3a-890e-0aa176abaa4f
+1715614773059	Marionette	INFO	Stopped listening on port 40499
+JavaScript warning: https://cdn.jsdelivr.net/npm/hls.js@latest, line 1: Script terminated by timeout at:
+i/e.tick@https://cdn.jsdelivr.net/npm/hls.js@latest:1:103529
+
+1715615042955	geckodriver	INFO	Listening on 127.0.0.1:42123
+1715615043498	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "52203" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOvcSeo"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715615044427	Marionette	INFO	Marionette enabled
+1715615044616	Marionette	INFO	Listening on port 34103
+WebDriver BiDi listening on ws://127.0.0.1:52203
+Read port: 34103
+1715615044973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:52203/devtools/browser/41e379cd-cb6c-4ba4-b6c4-af1065ed646a
+1715615056996	Marionette	INFO	Stopped listening on port 34103
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 124: Script terminated by timeout at:
+y<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:124:171
+@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:1023:230
+
+1715615870354	geckodriver	INFO	Listening on 127.0.0.1:57333
+1715615870924	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "50227" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledtGNXd"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715615872597	Marionette	INFO	Marionette enabled
+1715615872820	Marionette	INFO	Listening on port 40957
+Read port: 40957
+WebDriver BiDi listening on ws://127.0.0.1:50227
+1715615872961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50227/devtools/browser/9599d731-7031-4131-b861-7b9797e5a097
+1715615886489	Marionette	INFO	Stopped listening on port 40957
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 1023: Script terminated by timeout at:
+@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:1023:203
+
+1715615928695	geckodriver	INFO	Listening on 127.0.0.1:36703
+1715615928757	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "39583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesFosme"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715615929380	Marionette	INFO	Marionette enabled
+1715615929478	Marionette	INFO	Listening on port 37495
+WebDriver BiDi listening on ws://127.0.0.1:39583
+Read port: 37495
+1715615929779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:39583/devtools/browser/daebb40e-2d75-4ba3-917e-0588eb30940c
+1715615941089	Marionette	INFO	Stopped listening on port 37495
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 1023: Script terminated by timeout at:
+@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:1023:203
+
+1715616028282	geckodriver	INFO	Listening on 127.0.0.1:51857
+1715616028348	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "54631" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileClN7nC"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715616028945	Marionette	INFO	Marionette enabled
+1715616029042	Marionette	INFO	Listening on port 34749
+Read port: 34749
+WebDriver BiDi listening on ws://127.0.0.1:54631
+1715616029163	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:54631/devtools/browser/e310b3d1-730c-4451-b505-9ef639026c47
+1715616041123	Marionette	INFO	Stopped listening on port 34749
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 124: Script terminated by timeout at:
+y<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:124:171
+@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:1023:230
+
