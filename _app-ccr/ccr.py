@@ -7,31 +7,39 @@ from datetime import date
 from datetime import datetime
 import mysql.connector
 import time
-#db_connection = mysql.connector.connect(host='170.14.0.3', user='root', password='my-secret-pw', database='db_inpe')
+#db_connection = mysql.connector.connect(host='170.14.0.3', user='root', password='my-secret-pw', database='db_ccr')
 
-#Copia os dados do dia de hoje  
+#Setando opções do driver firefox
 f_options=Options()
 f_options.add_argument("-headless")  
 options = webdriver.FirefoxOptions()  
 webBrowser = webdriver.Firefox(options=f_options)
+
+#Site dos dados para serem capturados
 webBrowser.get('https://rodovias.grupoccr.com.br/riosp/cameras-ao-vivo/?openModalCamera=open&camera=km-156-sp')
+
+#Tempo de espera para carregar os dados na página adequadamente
 time.sleep(10)
-#texto = webBrowser.find_elements(By.CLASS_NAME, 'cmp-modalCamera__alertCard__description__title')
 
-texto = webBrowser.find_element(By.CLASS_NAME, "cmp-modalCamera__alertCard__description__title").text
+#Classe a ser capturada
+conteudo = webBrowser.find_element(By.CLASS_NAME, "cmp-modalCamera__alerts").text
 webBrowser.close()
-#texto = texto.splitlines()
-#tamanho = len(texto)
 
-print(texto)
+#Separa o conteúdo em vetor
+conteudo = conteudo.splitlines()
+tamanho = len(conteudo)
 
-#print(texto[1].text)
-#time.sleep(10)
+i = 0 #contador para o while
+titulo = 2 #contador para os titulos
+texto = 3  #contador para as noticias
 
-#for item in texto:
-    #titulo = item.find_element(By.CLASS_NAME, "cmp-modalCamera__alertCard__description__title").text
-    #print(titulo)
-    #time.sleep(5)
-    #print(item)
 
-#https://medium.com/@dev.daniel.amorim/selenium-web-scraping-parte-iii-4478a07e0afa
+#imprime o conteudo de cada notícias de tráfego separadamente
+while(i < tamanho):
+    print("Notícia: "+str(int((i/4)+1)))
+    print('Título: '+conteudo[titulo])
+    print('Texto: '+conteudo[texto])
+    print(' ')
+    titulo = titulo + 4
+    texto = texto + 4
+    i = i+4
