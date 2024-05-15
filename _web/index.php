@@ -207,14 +207,43 @@
                     <div class="col">
                         <div class="card h-100">
                             <div class="card-body"> 
-                                    <img src="./img/file.jpg" class="card-img-top" alt="...">   
-                                </div>
+                                <?php
+                                    include_once('conexao_ccr.php');
+
+                                    $data = date('Y-m-d');
+                                    $sql = "SELECT * FROM dados WHERE data_coleta='$data' ORDER BY id DESC LIMIT 4";
+                                    $result = $conn->query($sql);
+
+                                    while($dados = mysqli_fetch_assoc($result)){
+                                        if($dados['id']%2 == 0){
+                                            echo "<div id='back-cinza' style='margin-bottom: 20px; background-color: rgb(227, 228, 228, 0.5);'>";
+                                                echo "<b>".$dados['titulo']."</b>";
+                                                echo "<br><br>";
+                                                echo $dados['texto'];
+                                            echo "</div>";
+                                        }else{
+                                            echo "<div id='back-white' style='margin-bottom: 20px; background-color: rgb(255, 255, 255, 0.5);'>";
+                                                echo "<b>".$dados['titulo']."</b>";
+                                                echo "<br><br>";
+                                                echo $dados['texto'];
+                                            echo "</div>";
+                                        }                                                        
+                                    }  
+                                ?>           
+                            </div>
                             <div class="card-footer" style="height: 9rem;">
                                 <h5 class="card-title">Condições de Tráfego na Via Dutra</h5>
-                                <p class="card-text">Dados Obtidos da Concessionáio CCR-RIOSP, referente ao trecho de São José dos Campos, Km XXX ao KM XXX.</p>
+                                <p class="card-text">Dados Obtidos da Concessionáio CCR-RIOSP, referente ao trecho de São José dos Campos, Km 246 e proximidades.</p>
                             </div>
                             <div class="card-footer">
-                                <small class="text-muted">Last updated 3 mins ago</small>
+                                <small>Última atualização: 
+                                    <?php 
+                                        $consulta = "SELECT * FROM dados ORDER BY id DESC LIMIT 1";
+                                        $resultado = mysqli_query($conn, $consulta);
+                                        $dados = mysqli_fetch_assoc($resultado);                                         
+                                        echo $dados['hora_coleta'];                                  
+                                    ?>                            
+                                </small>
                             </div>
                         </div>
                     </div>
@@ -229,7 +258,7 @@
                                 <p class="card-text">Dados Obtidos da Concessionáio CCR-RIOSP, referente ao trecho de São José dos Campos, Km XXX ao KM XXX.</p>
                             </div>
                             <div class="card-footer">
-                                <small class="text-muted">Last updated 3 mins ago</small>
+
                             </div>
                         </div>
                     </div>

@@ -1511,3 +1511,131 @@ Read port: 38503
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
 DevTools listening on ws://127.0.0.1:46633/devtools/browser/8b70bf74-5b03-4682-ae69-7fb17d0d7a80
+1715800640640	geckodriver	INFO	Listening on 127.0.0.1:56273
+1715800641178	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "49943" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevo5o7b"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715800641640	Marionette	INFO	Marionette enabled
+1715800641730	Marionette	INFO	Listening on port 36325
+WebDriver BiDi listening on ws://127.0.0.1:49943
+Read port: 36325
+1715800641990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:49943/devtools/browser/f9462af3-3545-4d36-8563-75e8d9e68b83
+1715800657622	Marionette	INFO	Stopped listening on port 36325
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 124: Script terminated by timeout at:
+y<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:124:171
+@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:1023:230
+
+JavaScript error: resource://gre/modules/PictureInPicture.sys.mjs, line 560: TypeError: browser is null
+[463426] Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1715801766771	geckodriver	INFO	Listening on 127.0.0.1:54159
+1715801766822	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "37937" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMzYr3J"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715801767294	Marionette	INFO	Marionette enabled
+1715801767375	Marionette	INFO	Listening on port 44275
+WebDriver BiDi listening on ws://127.0.0.1:37937
+Read port: 44275
+1715801767628	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:37937/devtools/browser/2b31800d-f5cb-4e28-9658-e811766ed374
+1715801782316	Marionette	INFO	Stopped listening on port 44275
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js, line 261: Script terminated by timeout at:
+l<@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:261:111
+k<@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:380:203
+@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:1212:114
+y<@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:410:98
+QM@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:856:258
+@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:1208:480
+l<@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:212:19
+@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:1206:354
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js, line 634: Script terminated by timeout at:
+e<@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:634:242
+fI@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:750:150
+e<@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:665:435
+rz@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:832:27
+Dr@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:886:200
+T@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:243:486
+g@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:693:173
+
+1715801809656	geckodriver	INFO	Listening on 127.0.0.1:45689
+1715801809708	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "49169" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilev7P2Ip"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715801810122	Marionette	INFO	Marionette enabled
+1715801810200	Marionette	INFO	Listening on port 39299
+Read port: 39299
+WebDriver BiDi listening on ws://127.0.0.1:49169
+1715801810275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:49169/devtools/browser/5d028ef7-48d1-4f3b-a869-60c808585a32
+1715801824411	Marionette	INFO	Stopped listening on port 39299
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js, line 310: Script terminated by timeout at:
+d<@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:310:295
+@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:1211:53
+
+[466572] Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1715801869019	geckodriver	INFO	Listening on 127.0.0.1:42521
+1715801869072	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "38097" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSEsnKE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715801869480	Marionette	INFO	Marionette enabled
+1715801869560	Marionette	INFO	Listening on port 44395
+Read port: 44395
+WebDriver BiDi listening on ws://127.0.0.1:38097
+1715801869638	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:38097/devtools/browser/660ce853-f3ad-4c60-a453-c00adb21d185
+1715801883194	Marionette	INFO	Stopped listening on port 44395
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 1023: Script terminated by timeout at:
+@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:1023:203
+
+[467156] Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1715801931105	geckodriver	INFO	Listening on 127.0.0.1:41877
+1715801931157	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "58883" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3ZeiR5"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715801931559	Marionette	INFO	Marionette enabled
+1715801931638	Marionette	INFO	Listening on port 36205
+WebDriver BiDi listening on ws://127.0.0.1:58883
+Read port: 36205
+1715801931715	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58883/devtools/browser/e6da822a-c163-4a17-94f7-66f9a20dce11
+1715801945817	Marionette	INFO	Stopped listening on port 36205
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js, line 310: Script terminated by timeout at:
+d<@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:310:295
+@https://www.gstatic.com/recaptcha/releases/8k85QBI-qzxmenDv318AZH30/recaptcha__en.js:1211:53
+
+[467691] Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1715802530424	geckodriver	INFO	Listening on 127.0.0.1:56675
+1715802530974	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "60217" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWlF7eg"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715802531560	Marionette	INFO	Marionette enabled
+1715802531676	Marionette	INFO	Listening on port 41311
+WebDriver BiDi listening on ws://127.0.0.1:60217
+Read port: 41311
+1715802532008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60217/devtools/browser/38afce41-dfea-426b-8e15-87135cbd3ac8
+1715802547023	Marionette	INFO	Stopped listening on port 41311
+JavaScript warning: https://cdn.jsdelivr.net/npm/hls.js@latest, line 1: Script terminated by timeout at:
+get@https://cdn.jsdelivr.net/npm/hls.js@latest:1:145687
+i/r.doTick@https://cdn.jsdelivr.net/npm/hls.js@latest:1:383437
+i/e.tick@https://cdn.jsdelivr.net/npm/hls.js@latest:1:103585
+
