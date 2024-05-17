@@ -206,7 +206,7 @@
                     
                     <div class="col">
                         <div class="card h-100">
-                            <div class="card-body scrollspy-example"> 
+                            <div class="card-body "> 
                                 <?php
                                     include_once('conexao_ccr.php');
 
@@ -217,7 +217,7 @@
                                     $hora_coleta = $dados['hora_coleta']; 
                                     
                                     // Com base na última hora salva, captura as demais notícias de tráfego
-                                    $sql = "SELECT * FROM dados WHERE hora_coleta='$hora_coleta' ORDER BY id DESC LIMIT 4";
+                                    $sql = "SELECT * FROM dados WHERE hora_coleta='$hora_coleta' ORDER BY id DESC LIMIT 3";
                                     $result = $conn->query($sql);
 
                                     while($dados = mysqli_fetch_assoc($result)){
@@ -253,22 +253,7 @@
                                 </small>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body"> 
-                                    <img src="./img/file.jpg" class="card-img-top" alt="...">   
-                                </div>
-                            <div class="card-footer" style="height: 9rem;">
-                                <h5 class="card-title">Condições de Tráfego na Via Dutra</h5>
-                                <p class="card-text">Dados Obtidos da Concessionáio CCR-RIOSP, referente ao trecho de São José dos Campos, Km XXX ao KM XXX.</p>
-                            </div>
-                            <div class="card-footer">
-
-                            </div>
-                        </div>
-                    </div>
+                    </div>                    
                 </div>   
             
         </div>

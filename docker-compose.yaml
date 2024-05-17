@@ -97,6 +97,21 @@ services:
     environment:
       TZ: "America/Sao_Paulo"
 
+  python-ccr:
+    build:
+      context: .
+      dockerfile: dockerfile-python-ccr
+    container_name: sanjahoje_python_ccr
+    volumes:
+      - ./_app-ccr:/app 
+    restart: always
+    tty: true
+    networks:
+      rede:
+        ipv4_address: 170.14.0.7
+    environment:
+      TZ: "America/Sao_Paulo"
+
 volumes:
   dbdata:
 

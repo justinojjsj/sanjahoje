@@ -1,0 +1,38 @@
+## SANJA HOJE
+
+Para funcionar os sistemas é necessário:
+
+-Instalar o docker desktop
+-Fazer um clone no repositório
+-Executar os containers docker. Existe duas formas:
+    -Método 1: 
+        Utilizando o power shell acessar o diretório onde está salvo o arquivo docker-compose.yaml
+        Digitar o seguinte comando: docker-compose up 
+    -Método 2:
+        Instalar o VSCODE
+        Instalar o plugin docker
+        Abrir o projeto sanjahoje no VSCODE
+        Encontrar o arquivo docker-compose.yaml
+        Clicar com o botão direito no arquivo e clicar em compose-up
+
+Após estar com os containers em execução acessar através do navegador:
+
+Executar os containers e configurar o cron:
+    docker exec -it sanjahoje_python_inpe bash
+    crontab -e
+    #Selecionar opçãoo 1 (nano)
+    #Copiar a seguinte linha oa final do arquivo:
+    0,15,30,45 * * * * /app/exec.sh
+
+    #Fazer o mesmo para os containers:
+    sanjahoje_python_noticias
+    sanjahoje_python_ccr
+
+Phpmyadmin:
+    127.0.0.1:8083 (usuário: root senha: my-secret-pw)
+    Importar arquivo db.sql que está na pasta _db
+
+Site:
+    127.0.0.1:83
+    A cada 15 minutos os dados do site são atualizados automaticamente
+    
