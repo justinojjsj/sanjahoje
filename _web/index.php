@@ -206,12 +206,18 @@
                     
                     <div class="col">
                         <div class="card h-100">
-                            <div class="card-body"> 
+                            <div class="card-body scrollspy-example"> 
                                 <?php
                                     include_once('conexao_ccr.php');
 
-                                    $data = date('Y-m-d');
-                                    $sql = "SELECT * FROM dados WHERE data_coleta='$data' ORDER BY id DESC LIMIT 4";
+                                    // Pega a última hora que está salva no banco para obter dados mais recentes
+                                    $consulta = "SELECT * FROM dados ORDER BY id DESC LIMIT 1";
+                                    $resultado = mysqli_query($conn, $consulta);
+                                    $dados = mysqli_fetch_assoc($resultado);                                         
+                                    $hora_coleta = $dados['hora_coleta']; 
+                                    
+                                    // Com base na última hora salva, captura as demais notícias de tráfego
+                                    $sql = "SELECT * FROM dados WHERE hora_coleta='$hora_coleta' ORDER BY id DESC LIMIT 4";
                                     $result = $conn->query($sql);
 
                                     while($dados = mysqli_fetch_assoc($result)){
@@ -238,10 +244,11 @@
                             <div class="card-footer">
                                 <small>Última atualização: 
                                     <?php 
-                                        $consulta = "SELECT * FROM dados ORDER BY id DESC LIMIT 1";
-                                        $resultado = mysqli_query($conn, $consulta);
-                                        $dados = mysqli_fetch_assoc($resultado);                                         
-                                        echo $dados['hora_coleta'];                                  
+                                        // $consulta = "SELECT * FROM dados ORDER BY id DESC LIMIT 1";
+                                        // $resultado = mysqli_query($conn, $consulta);
+                                        // $dados = mysqli_fetch_assoc($resultado);                                         
+                                        // echo $dados['hora_coleta'];           
+                                        echo $hora_coleta;                       
                                     ?>                            
                                 </small>
                             </div>
