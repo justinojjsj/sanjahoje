@@ -1,15 +1,8 @@
 <html>
-    <!-- 
-        AJUSTAR HORA DO PHP
-
-        php --ini
-        cd /usr/local/etc/php/
-        cp php.ini-development php.ini
-        nano php.ini
-        #procurar Date
-        #habilitar
-        date.timezone = America/Sao_Paulo
-    -->
+    <?php
+        #Ajustar timezone no PHP
+        date_default_timezone_set('America/Sao_Paulo');
+    ?>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="refresh" content="180">
@@ -166,6 +159,7 @@
                                     include_once('conexao_noticias.php');
 
                                     $data = date('Y-m-d');
+                                    
                                     $sql = "SELECT * FROM dados WHERE data_coleta='$data' ORDER BY id DESC LIMIT 4";
                                     $result = $conn->query($sql);
 
@@ -239,15 +233,11 @@
                             </div>
                             <div class="card-footer" style="height: 9rem;">
                                 <h5 class="card-title">Condições de Tráfego na Via Dutra</h5>
-                                <p class="card-text">Dados Obtidos da Concessionáio CCR-RIOSP, referente ao trecho de São José dos Campos, Km 246 e proximidades.</p>
+                                <p class="card-text">Dados Obtidos da Concessionária CCR-RIOSP, referente ao trecho de São José dos Campos, Km 246 e proximidades.</p>
                             </div>
                             <div class="card-footer">
                                 <small>Última atualização: 
-                                    <?php 
-                                        // $consulta = "SELECT * FROM dados ORDER BY id DESC LIMIT 1";
-                                        // $resultado = mysqli_query($conn, $consulta);
-                                        // $dados = mysqli_fetch_assoc($resultado);                                         
-                                        // echo $dados['hora_coleta'];           
+                                    <?php        
                                         echo $hora_coleta;                       
                                     ?>                            
                                 </small>
