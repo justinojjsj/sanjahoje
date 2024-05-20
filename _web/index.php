@@ -159,7 +159,7 @@
                                     include_once('conexao_noticias.php');
 
                                     $data = date('Y-m-d');
-                                    
+                                                                        
                                     $sql = "SELECT * FROM dados WHERE data_coleta='$data' ORDER BY id DESC LIMIT 4";
                                     $result = $conn->query($sql);
 
