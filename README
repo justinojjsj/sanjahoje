@@ -4,7 +4,7 @@ Para funcionar os sistemas é necessário:
 
 -Instalar o docker desktop
 -Fazer um clone no repositório
--Executar os containers docker. Existe duas formas:
+-Executar os containers docker. Existem duas formas:
     -Método 1: 
         Utilizando o power shell acessar o diretório onde está salvo o arquivo docker-compose.yaml
         Digitar o seguinte comando: docker-compose up 
