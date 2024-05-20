@@ -3,9 +3,9 @@
 print("\nEscolha o container para executar os testes:\n\n")
 print("1 - Container INPE")
 print("2 - Container NOTICIAS")
-print("3 - Container SERVIDOR WEB")
-print("4 - Container SERVIDOR BANCO DE DADOS")
-
+print("3 - Container CCR")
+print("4 - Container SERVIDOR WEB")
+print("5 - Container SERVIDOR BANCO DE DADOS")
 
 print("\n")
 container = input("Digite o número escolhido: ")
@@ -18,8 +18,10 @@ if(container=='1'):
 elif(container=='2'):
     temp.write("sanjahoje_python_noticias")
 elif(container=='3'):
-    temp.write("sanjahoje_php_apache")
+    temp.write("sanjahoje_python_ccr")
 elif(container=='4'):
+    temp.write("sanjahoje_php_apache")
+elif(container=='5'):
     temp.write("sanjahoje_db")
 else:
     print("Escolha nao existe")

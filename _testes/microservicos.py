@@ -8,6 +8,7 @@ import mysql.connector
 print("\nEscolha o container para executar os testes:\n\n")
 print("1 - Container INPE")
 print("2 - Container NOTICIAS")
+print("3 - Container CCR")
 
 # SELEÇÃO DE CONTAINER DE MICRSERVIÇO
 
@@ -18,6 +19,8 @@ if(id=='1'):
     container = 'sanjahoje_python_inpe'
 elif(id=='2'):
     container = 'sanjahoje_python_noticias'
+elif(id=='3'):
+    container = 'sanjahoje_python_ccr'
 else:
     print("Escolha nao existe")
 
@@ -29,6 +32,10 @@ if(id=='1'):
     os.system("grep -o '0%' temp > temp0")
 elif(id=='2'):
     print('\nPasso 1 - Confere se o site está online https://g1.globo.com/sp/vale-do-paraiba-regiao/cidade/sao-jose-dos-campos/\n')
+    os.system("ping -c 3 www.google.com > temp")
+    os.system("grep -o '0%' temp > temp0")
+elif(id=='3'):
+    print('\nPasso 1 - Confere se o site está online https://rodovias.grupoccr.com.br/riosp/cameras-ao-vivo/?openModalCamera=open&camera=km-156-sp\n')
     os.system("ping -c 3 www.google.com > temp")
     os.system("grep -o '0%' temp > temp0")
 
@@ -48,6 +55,8 @@ if(id=='1'):
     os.system("docker container exec -it sanjahoje_python_inpe date '+%d-%m-%y-%H-%M' > temp1")
 elif(id=='2'):
     os.system("docker container exec -it sanjahoje_python_noticias date '+%d-%m-%y-%H-%M' > temp1")
+elif(id=='3'):
+    os.system("docker container exec -it sanjahoje_python_ccr date '+%d-%m-%y-%H-%M' > temp1")
     
 arquivo = open("temp1", "r")
 hora_container = str(arquivo.read())
@@ -72,6 +81,8 @@ if(id=='1'):
     db_connection = mysql.connector.connect(host='170.14.0.3', user='root', password='my-secret-pw', database='db_inpe')
 elif(id=='2'):
     db_connection = mysql.connector.connect(host='170.14.0.3', user='root', password='my-secret-pw', database='db_noticias')
+elif(id=='3'):
+    db_connection = mysql.connector.connect(host='170.14.0.3', user='root', password='my-secret-pw', database='db_ccr')
     
 consulta = db_connection.cursor()
 consulta.execute("SELECT * FROM dados ORDER BY id DESC LIMIT 1")
@@ -91,6 +102,8 @@ if(id=='1'):
     os.system("tail -n 1 ../_app-inpe/hora_executada.log ")
 elif(id=='2'):
     os.system("tail -n 1 ../_app-noticias/hora_executada.log ")
+elif(id=='3'):
+    os.system("tail -n 1 ../_app-ccr/hora_executada.log ")
 
 print('\n')
 
