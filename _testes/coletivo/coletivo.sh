@@ -3,7 +3,6 @@
 #Script coletivo.sh
 
 #Recebendo o nome do container
-#container="sanjahoje_python_inpe"
 python containers.py
 container=$(cat temp0)
 rm temp0
